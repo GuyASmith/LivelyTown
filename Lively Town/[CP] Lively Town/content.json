@@ -1,0 +1,259 @@
+{
+    "Format": "1.25.0", // BEWARE: this file may contain spoilers about work-in-progress or unimplemented features. Treat them more as easter eggs than guaranteed future features.
+	"ConfigSchema": {
+		"EnableLuauBridge": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "The Luau festival always shows the bridge on the beach as broken, even if the bridge was repaired. This fixes that."
+		},
+		"EnableNightMarketBridge": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "The Night Market festival always shows the bridge on the beach as broken, even if the bridge was repaired. This fixes that."
+		},
+		"EnableEventConsistency": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Makes events and dialogue more responsive to things that have happened."
+		},
+		"EnableHighFriendshipEvents": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "ALPHA FEATURE: This allows you to experience some 10-14 heart events with the folks you aren't married to if you have already settled down with someone else."
+		},
+		"SpouseNoun": {
+			"AllowBlank": true,
+			"AllowMultiple": true,
+			"Default": "Partner",
+			"Description": "Only matters if you have the Gender Neutrality mod by Hanatsuki and enable High Friendship Events; has to be copied here since you can't reference other mods' settings. This is the word which is used to describe your marital status. Examples: husband, wife, spouse, partner, etc. Can include multiple separated by commas. If you enable FemLanguage, use 'Wife', and if you enable MascLanguage, use 'Husband'. Default is 'Partner'."
+		},
+		"EnableFundraiserBooks": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Haley fundraises to get new books for the kids at 14 hearts. This neatens up the library and adds fuller shelves after Lewis is pressured by the townsfolk to do more with their business taxes. Automatically ignored and turned off if Stardew Valley Expanded is installed."
+		},
+		"EnableCarolineCorner": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Allows Caroline to open her corner store with tea, out of season seeds, flowers, fiber, and decoratives."
+		},
+		"EnableShanesEggs": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "A little change to Pierre's that adds an egg display and he sells eggs once you've gotten Shane's 8 heart event. Also adds diaglogue for after the event about that."
+		},
+		"EggDisplay": {
+			"AllowValues": "Counter, Fridge, None",
+			"Default": "Counter",
+			"Description": "Entirely visual, determines how eggs are visually shown as added to Pierre's shop. Set to 'None' if you have other mods creating conflicts."
+		},
+		"EnableGiveClintGrowth": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "ALPHA FEATURE: Makes Clint less creepy and grow a little. He normally stagnates at 6 hearts, if you even get that event. This expands beyond that."
+		},
+		"EnableEvelynsGardening": {
+			"AllowValues": "True, DialogueOnly, False",
+			"Default": "True",
+			"Description": "ALPHA FEATURE: Makes the tree outside of Evelyn's house a cherry tree and gives her more plant pots. She might give you jelly and cherries as gifts, some people reference it, and optionally you'll be able to see them on the tree. If 'DialogueOnly', you'll only have the dialogue and gifts; use this option if you have recolor mods installed. Credit to dollynhoevida on Nexus for the idea."
+		}
+	},
+	"DynamicTokens": [
+		{
+			"Name": "GenderNeutrality",
+			"Value": false
+		},
+		{
+			"Name": "GenderNeutrality",
+			"Value": true,
+			"When": {
+				"HasMod": "Hana.GenderNeutralityMod"
+			}
+		},
+		{
+			"Name": "StardewExpanded",
+			"Value": false
+		},
+		{
+			"Name": "StardewExpanded",
+			"Value": true,
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		}
+	],
+    "Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "assets/events/caroline_corner_event.json",
+			"When": {
+				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/caroline_corner_shop.json",
+			"When": {
+				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/schedules/caroline_schedule.json",
+			"When": {
+				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/shanes_eggs_fridge.json",
+			"When": {
+				"EggDisplay": "Fridge",
+				"EnableShanesEggs": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/shanes_eggs_counter.json",
+			"When": {
+				"EggDisplay": "Counter",
+				"EnableShanesEggs": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/events/shanesEggs.json",
+			"When": {
+				"EnableShanesEggs": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/luauBridge.json",
+			"When": {
+				"EnableLuauBridge": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/nightMarketBridge.json",
+			"When": {
+				"EnableNightMarketBridge": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/fundraiserBooks.json",
+			"When": {
+				"EnableFundraiserBooks": true,
+				"StardewExpanded": false
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/events/highFriendshipEvents.json",
+			"When": {
+				"EnableHighFriendshipEvents": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/sebastianFrog.json",
+			"When": {
+				"EnableHighFriendshipEvents": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/events/giveClintGrowth.json",
+			"When": {
+				"EnableGiveClintGrowth": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/events/eventConsistency.json",
+			"When": {
+				"EnableEventConsistency": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/diaglogue/evelynsTree.json",
+			"When": {
+				"EnableEvelynsGardening": "True"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/diaglogue/evelynsTree.json",
+			"When": {
+				"EnableEvelynsGardening": "DialogueOnly"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/evelynsTree.json",
+			"When": {
+				"EnableEvelynsGardening": "True",
+				"StardewExpanded": "false"
+			}
+		},
+		//{
+		//	"Action": "Include",
+		//	"FromFile": "assets/maps/evelynsPots.json",
+		//	"When": {
+		//		"EnableEvelynsGardening": "True",
+		//		"StardewExpanded": "false"
+		//	}
+		//}
+		
+		// THE NOTES // DO NOT READ IF YOU VALUE A SURPRISE OR DON'T WANT DISAPPOINTMENT
+		
+		// IN PROGRESS //
+			// High Friendship Events
+				// gives you the opportunity to see (most) characters' 10-14 heart events when you're married or roommates to someone else, without having to use a poly mod or date them
+			// Less Creepy Clint (a long-term goal)
+				// the guy needs to move on and grow up a bit (whatever it's decided that does)
+				// also, shouldn't he have events *not* related to Emily?
+				// ...eventual jewellery unlock? I feel like Clint having something other than 'just being a smith' like his predecessors would be good for him
+				// STRETCH: order of events changes how he develops, either moving onto better things or going more midlife crisis before evening out
+			// dollynhoevida - improvements to Evelyn
+				// DONE- cherry tree outside house
+				// DONE- randomly might give fruit (or preserves) from fruit tree if friendly enough during fruit season	
+				// more pots in/around her house
+				// plant pots are moved indoors during winter
+		
+		// CONTINUOUSLY IN PROGRESS //
+			// Event Consistency
+				// this game has no continuity supervisor or system, so I guess I can fill in
+				// fixes for events and diaglogue that change things based on past events
+		
+		// CURRENTLY ANTICIPATED TO-DOs //
+			// More Better Gay Stuff
+				// This will add more gay-specific dialogue. We're sorely lacking on anything that isn't titles, adjectives, and pronouns. And even then, us enbies have to use mods to be gendered properly.
+				// Also, spruce up some of the existing queer diaglogue.
+			// Make the Community Centre be (more) used when it's finished (given you didn't sell out to Joja)
+				// STRETCH: also add events (and quests)
+				// STRETCH 2: a festival moves to happen inside/around the Community Centre
+				// STRETCH 3: make places like the bathhouse get more used, especially during the winter
+					// note to self: if implemented, Caroline already does that in the Caroline Corner schedule
+			// Marnie and Lewis's relationship is underdeveloped and nothing happens if you say you'll reveal their relationship, so make it matter
+				// STRETCH: besides at least that one event, make more things happen (i.e. diaglogue, events, schedules, something)
+						// an extrapolation: something about Lewis wanting privacy in his personal life (which we know is defensive based on his GOLD STATUES)
+				// STRETCH 2: more things happen, like a breakup or stabilising/formalising what's happening (because it's at least partially working for them)
+		
+		// STRETCHY / OUT OF SCOPE IDEAS //
+			// TRANSLATIONS PLEASE !?
+				// probably going to have to rely on other people doing it for me :/
+			// Emily clothing service?
+			// Canon-expansion events (STRETCH INDEED) (might be outside scope?)
+				// The kernel of this comes from Shane sending you the Strange Bun recipe, but nothing interesting or funny happens and *everyone* hates it.
+			// Seasonal or special day introductory events?
+				// On the first day of a season, there's some panning around town to show you how some schedules have changed and how the town looks different
+				// During Salmonberry, Crab Mating, and Blackberry seasons, show panning shots of some of the spawning locations with some of the spawned items, given they haven't been nicked by your co-players
+				// When you unlock the Hat Mouse, or on the first Friday or Sunday you visit Cindersap Forest, you get shown the Hat Mouse House or the Travelling Cart respectively
+			// The magical Trash Bear fixes up the Hat Mouse House a bit
+			
+    ]
+}

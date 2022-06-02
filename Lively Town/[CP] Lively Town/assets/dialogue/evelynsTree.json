@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": {
+				"spring_Fri4_1": "I thought it was time I gave you something for our chats and your gifts.#$b#I like to make jelly with the extra cherries from the tree outside.#$b#Here's my latest jar, just for you.$h [ 344 ]",
+				"spring_Fri4_2": "You run around a lot, but it's nice to catch up sometimes.$h#$b#Here, we have plenty of jelly from the cherry tree. [ 344 ]",
+				"summer_Mon6_1": "You know the tree out front grows lots of cherries. We have some left over in the fridge that I'm slowly making into jelly.#$b#I can't cook them all down, but I know you'd enjoy some. [ 638 ]#$b#I thought I'd share them with someone other than Lewis or Gus for once.",
+				"summer_Mon6_2": "I still have plenty of leftover cherries from our tree.#$e#Since you're so inquisitive, why don't you take some? It'd be a shame to let them go to waste. [ 638 ]",
+				"spring_Mon": "$1 evelynsTree#I would hope a farmer might know this, but the tree outside our house is a cherry tree old as me.#$b#At least, that's what we think. It's been there since before I can remember.#$b#And as a little girl, I took that sort of thing for granted.#$b#Until I had its cherries, that is. Then I wouldn't stop fawning over it come the new year.$k#$e#The old cherry tree is fruiting again.#$e#It's about time to collect some again."
+			}
+		}
+		// TO-DO: more dialogue for other people
+			//ALEX
+			//CAROLINE
+			//GEORGE
+			//LEWIS
+			//PIERRE
+	]
+}

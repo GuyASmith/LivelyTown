@@ -1,0 +1,13 @@
+{
+    "Changes": [
+		{
+			"Action": "EditMap",
+            "Target": "Maps/ArchaeologyHouse",
+            "FromFile": "assets/maps/fundraiserBooks.tmx",
+			"ToArea": { "X": 3, "Y": 1, "Width": 18, "Height": 9},
+			"When": {
+				"HasSeenEvent": "6184644"
+			}
+		}
+	]
+}

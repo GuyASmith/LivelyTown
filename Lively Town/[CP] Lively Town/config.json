@@ -1,0 +1,12 @@
+{
+	"EnableCarolineCorner": true,
+	"EnableShanesEggs": true,
+	"EggDisplay": "Counter",
+	"EnableLuauBridge": true,
+	"EnableNightMarketBridge": true,
+	"EnableFundraiserBooks": true,
+	"EnableHighFriendshipEvents": true,
+	"SpouseNoun": "Partner",
+	"EnableGiveClintGrowth": true,
+	"EnableEventConsistency": true
+}

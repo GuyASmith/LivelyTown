@@ -1,0 +1,13 @@
+{
+    "Changes": [
+		{
+			"Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "assets/maps/SeedShop_withCounter.tmx",
+			"ToArea": { "X": 2, "Y": 24, "Width": 2, "Height": 3},
+			"When": {
+				"HasSeenEvent": "3900074"
+			}
+		}
+	]
+}

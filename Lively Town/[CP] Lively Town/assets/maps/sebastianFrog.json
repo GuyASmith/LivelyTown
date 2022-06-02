@@ -1,0 +1,13 @@
+{
+    "Changes": [
+		{
+			"Action": "EditMap",
+            "Target": "Maps/SebastianRoom",
+            "FromFile": "assets/maps/SebastianRoom_frog.tmx",
+			"ToArea": { "X": 3, "Y": 10, "Width": 3, "Height": 2},
+			"When": {
+				"HasFlag": "LivelyMail.sawSebastianFrogSceneFriend"
+			}
+		}
+	]
+}

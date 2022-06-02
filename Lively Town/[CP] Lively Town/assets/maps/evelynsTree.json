@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/maps/evelynsTree.tmx",
+			"ToArea": { "X": 63, "Y": 57, "Width": 4, "Height": 5},
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			"FromFile": "assets/maps/evelynsTree-EggFestival.tmx",
+			"ToArea": { "X": 63, "Y": 57, "Width": 4, "Height": 5}
+		}
+	]
+}

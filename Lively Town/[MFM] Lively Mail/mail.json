@@ -1,0 +1,247 @@
+[
+	{
+		"Id": "LivelyMail.carolineShop",
+		"GroupId": "LivelyMail.livelyGroup",
+		"Title": "Presenting Caroline's Corner!",
+		"Text": "Dear @,^On Fridays, Saturdays, and Sundays, Caroline will now be running a shop with more gardening and floral supplies, including out of season stock, at the front corner of the store. Please stop by and see what's on offer!^^From,^Your local shopkeeps at the General Store",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen":  false,
+		// deliver after... on... if you've seen...
+		"Date": "1 spring Y2",
+		"Days": [4,11,18,25],
+		"EventsSeen": [113191001]
+	},
+	{
+		"Id": "LivelyMail.showCornerShop",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [113191001]
+	},
+	{
+		"Id": "LivelyMail.ShanesEggs",
+		"GroupId": "LivelyMail.livelyGroup",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [113191999]
+	},
+	{
+		"Id": "LivelyMail.booksBroken",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [113191026, 113191027, 113191028, 113191029, 113191030, 113191031, 113191032, 113191033, 113191034, 113191035, 113191036, 113191037],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.cakewalk",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [113191040]
+	},
+	{
+		"Id": "LivelyMail.cakewalkComplete",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [6184644, 113191038],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.sportsRoomByFriendship",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [113191014, 113191015, 113191016, 113191017, 113191018, 113191019, 113191020, 113191021, 113191022, 113191023, 113191024, 113191025],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.AlexMoneyEvent",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen": true,
+		"EventsSeen": [3917587, 113191014, 113191015, 113191016, 113191017, 113191018, 113191019, 113191020, 113191021, 113191022, 113191023, 113191024, 113191025],
+		"RequireAllEventsSeen": false
+	},
+	{
+		"Id": "LivelyMail.sawSebastianFrogScene",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen": true,
+		"EventsSeen": [9333219, 113191041, 113191042, 113191043, 113191044, 113191045, 113191046, 113191047, 113191048, 113191049, 113191050, 113191051, 113191052],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.sawSebastianFrogSceneFriend",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen": true,
+		"EventsSeen": [113191041, 113191042, 113191043, 113191044, 113191045, 113191046, 113191047, 113191048, 113191049, 113191050, 113191051, 113191052],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.sawAbigailMonsterScene",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [6963327, 113191053, 113191054, 113191055, 113191056, 113191057, 113191058, 113191059, 113191060, 113191061, 113191062, 113191063, 113191064],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.sawKrobusScene",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [7771191, 113191065, 113191066, 113191067, 113191068, 113191069, 113191070, 113191071, 113191072, 113191073, 113191074, 113191075, 113191076],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.ShaneRecovery",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [3917584, 113191077, 113191078, 113191079, 113191080, 113191081, 113191082, 113191083, 113191084, 113191085, 113191086, 113191087, 113191088],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.ElliottBookTour",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen": true,
+		"EventsSeen": [3912125, 113191091],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.elliottLetter1",
+		"GroupId": "null",
+		"Title": "Letter From Elliot",
+		"Text": "@,^^I've just arrived in Grampleton, to start the tour. I've forgotten how hectic the city is! The streets are packed with people... Everyone either seems to be in a mad hurry or lost in a daze, unaware of their surroundings. I miss Pelican Town already!^^I begin the tour this evening, at a local bookstore. I must admit, I'm becoming a bit nervous at the thought of public speaking... My stomach feels as if it's been twisted into a soft pretzel and doused with spicy cheese dip. Wish me luck!^^-Sincerely, Elliott %item conversationTopic ElliottGone2 0 %%",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"EventsSeen": [113191092]
+	},
+	{
+		"Id": "LivelyMail.elliottLetter2",
+		"GroupId": "null",
+		"Title": "Letter From Elliot 2",
+		"Text": "@,^^The first reading went well, though the audience was a bit smaller than I'd hoped. Still, I sold enough copies of the book to pay for my (bug-infested) hotel room!^^In a few hours, I leave for Zuzu City. If yesterday's reading was a warm-up, this next one will be a true napalm blast...^Let's hope the bookstore is prepared for it.^^-Sincerely, Elliott %item conversationTopic ElliottGone3 0 %%",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"EventsSeen": [113191093]
+	},
+	{
+		"Id": "LivelyMail.elliottLetter3",
+		"GroupId": "null",
+		"Title": "Letter From Elliot 3",
+		"Text": "My dear friend @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your friend from the beach Elliott, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon.^^-Love, Elliott %item conversationTopic ElliottGone4 0 %%",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"EventsSeen": [113191094]
+	},
+	{
+		"Id": "LivelyMail.elliottLetter4",
+		"GroupId": "null",
+		"Title": "Letter From Elliot 4",
+		"Text": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've travelled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where a friend waits:^Their little home beside the pond^^-Elliott %item conversationTopic ElliottGone5 0 %%",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"EventsSeen": [113191095]
+	},
+	{
+		"Id": "LivelyMail.elliottLetter5",
+		"GroupId": "null",
+		"Title": "Letter From Elliot 5",
+		"Text": "My friend,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and hear what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning home... I see kegs pulsing with sweet wine, a furnace stoked by an engine, and my little that smells of sea salt. There's a lot to enjoy!^^-Sincerely, Elliott %item conversationTopic ElliottGone6 0 %%",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"EventsSeen": [113191096]
+	},
+	{
+		"Id": "LivelyMail.elliottLetter6",
+		"GroupId": "null",
+		"Title": "Letter From Elliot 6",
+		"Text": "Dearest @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to my cozy cabin, our talks on the beach, and the occasional hermit crab.^^See you soon!^-Sincerely, Elliott %item conversationTopic ElliottGone7 0 %%",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"EventsSeen": [113191097]
+	},
+	{
+		"Id": "LivelyMail.LeahPaintEvent",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [3911124, 113191110, 113191111, 113191112, 113191113, 113191114, 113191115, 113191116, 113191117, 113191118, 113191119, 113191120, 113191121],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.LeahPaintEvent2",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [3091462, 113191122],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.EmilyQuest",
+		"GroupId": "null",
+		"Repeatable": "false",
+		"AutoOpen": "true",
+		"EventsSeen": [3917600, 113191123, 113191124, 113191125, 113191126, 113191127, 113191128, 113191129, 113191130, 113191131, 113191132, 113191133, 113191134],
+		"RequireAllEventsSeen": false
+	},
+	{
+		"Id": "LivelyMail.EmilyQuestFriend",
+		"GroupId": "null",
+		"Repeatable": "false",
+		"AutoOpen": "true",
+		"EventsSeen": [113191123, 113191124, 113191125, 113191126, 113191127, 113191128, 113191129, 113191130, 113191131, 113191132, 113191133, 113191134],
+		"RequireAllEventsSeen": false
+	},
+	{
+		"Id": "LivelyMail.EmilyReward",
+		"GroupId": "null",
+		"Title": "For the Diamond",
+		"Text": "Thanks again for the diamond! I know they're expensive and hard to get and I couldn't make up for something like that easily. Hope you like what I made for you!^^Love,^Emily",
+		"Attachments": [
+			{
+				"Type": "Boots",
+				"Index": 804,
+				"Stack": 1
+			}
+		],
+		"Repeatable": "false",
+		"AutoOpen": "false",
+		"EventsSeen": [113191135]
+	},
+	{
+		"Id": "LivelyMail.clintDate",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [101],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.clintMovingForward",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [2123243, 113192001, 113192002],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.clintJewellery",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [113192004]
+	}
+]

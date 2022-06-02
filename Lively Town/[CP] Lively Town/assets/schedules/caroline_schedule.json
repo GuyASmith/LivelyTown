@@ -1,0 +1,86 @@
+{
+    "Changes": [
+		{
+			"Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+			// compatibility is 0 for any mod which has to edit Caroline's routine, but I doubt too many actually do
+			"Entries": {
+				"Fri": null,
+				"Sat": null,
+				"Sun": null,
+				"rain": null,
+				"fall_25": null,
+				"winter_16": null,
+				"Tue": null,
+				"Wed": null,
+				"spring": null,
+				"fall_25": "800 SeedShop 37 6 3/1000 SeedShop 27 7 3 \"Strings\\schedules\\Caroline:fall_25.000\"/1200 Hospital 13 14 0 \"Strings\\schedules\\Caroline:fall_25.001\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Caroline:fall_25.002\"/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"winter_16": "800 SeedShop 37 6 3/1200 SeedShop 15 23 0/1330 Town 23 71 2/1600 Beach 24 32 3 \"Strings\\schedules\\Caroline:winter_16.000\"/2330 SeedShop 25 4 1 caroline_sleep",
+				"Fri": "700 SeedShop 37 9 3/800 SeedShop 17 29 3/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"Sat": "700 SeedShop 37 9 3/800 SeedShop 17 29 3/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"Sun": "700 SeedShop 37 9 3/800 SeedShop 17 29 3/1700 Town 48 33 2/1930 SeedShop 27 7 1/2100 SeedShop 25 4 1 caroline_sleep",
+				"Thu": "700 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				//"rain": "800 SeedShop 37 6 3/1200 SeedShop 15 23 0/1330 SeedShop 21 5 2 caroline_read/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep", // broken, it won't let me move it in the order
+				"Tue": "800 SeedShop 22 14 0 \"Strings\\schedules\\Caroline:Tue.000\"/1030 SeedShop 24 17 3/1300 SeedShop 24 21 0 caroline_exercise/1600 SeedShop 23 15 1 \"Strings\\schedules\\Caroline:Tue.001\"/1810 SeedShop 34 5 0 \"Strings\\schedules\\Caroline:Tue.002\"/2100 SeedShop 25 4 1 caroline_sleep",
+				"Wed": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 Town 23 27 1/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"winter_Mon": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 SeedShop 15 23 0/1330 BathHouse_Pool 15 10 2 \"Strings\\schedules\\Caroline:winter_Mon.000\"/1800 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"Mon": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 SeedShop 15 23 0/1330 Town 23 71 2/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
+			},
+			"When": {
+				"HasFlag": "LivelyMail.showCornerShop"
+			}
+		},
+			// description string for in the bathhouse
+				// depends on the current default portait, so at least it won't be out of character
+		{
+			"Action": "EditData",
+            "Target": "Strings/schedules/Caroline",
+			"Entries": {
+				"winter_Mon.000": "Don't mind me. I'm just relaxing while I can."
+			}
+		},
+			// bathing suit Bathhouse fix
+				// incompatible with character-changing mods, will require manual patches
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Caroline",
+			"FromFile":"assets/sprites/Caroline_Beach.png",
+			"Update": "OnLocationChange",
+			"When": {
+				"LocationName": "BathHouse_Pool"
+			}
+		},
+			// Shane fix - he glitches into the counter on Saturdays at around 2pm because of travel time
+		{
+			"Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+			"Entries": {
+				"Sat": "700 AnimalShop 24 15 0/1200 SeedShop 12 26 3/1700 Saloon 21 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_sleep"
+			},
+			"When": {
+				"HasFlag": "LivelyMail.showCornerShop"
+			}
+		},
+			// Sunday Abigail fix
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/Abigail",
+			"Entries": {
+				"Sun": "900 SeedShop 4 5 0/1030 SeedShop 8 4 1 \"Strings\\schedules\\Abigail:Sun.000\"/1300 Forest 14 40 2/2000 SeedShop 1 9 3 abigail_sleep"
+			},
+			"When": {
+				"HasFlag": "LivelyMail.showCornerShop"
+			}
+		},
+		{
+			"Action": "EditData",
+            "Target": "Strings/schedules/Abigail",
+			"Entries": {
+				"Sun.000": "We're hiding in here so we don't have to talk to anyone. Isn't that right, David?"
+			},
+			"When": {
+				"HasFlag": "LivelyMail.showCornerShop"
+			}
+		}
+	]
+}
