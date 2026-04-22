@@ -24,7 +24,7 @@
 		"GroupId": "LivelyMail.livelyGroup",
 		"Repeatable": false,
 		"AutoOpen":  true,
-		"EventsSeen": [113191999]
+		"EventsSeen": [3900074]
 	},
 	{
 		"Id": "LivelyMail.booksBroken",
@@ -220,6 +220,30 @@
 		"Repeatable": "false",
 		"AutoOpen": "false",
 		"EventsSeen": [113191135]
+	},
+	{
+		"Id": "LivelyMail.SamEvent1",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [3918601, 113191136, 113191137, 113191138, 113191139, 113191140, 113191141, 113191142, 113191143, 113191144, 113191145, 113191146, 113191147],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.SamEvent2",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [3918602, 113191148],
+		"RequireAllEventsSeen":  false
+	},
+	{
+		"Id": "LivelyMail.SamEvent3",
+		"GroupId": "null",
+		"Repeatable": false,
+		"AutoOpen":  true,
+		"EventsSeen": [3918603, 113191149],
+		"RequireAllEventsSeen":  false
 	},
 	{
 		"Id": "LivelyMail.clintDate",

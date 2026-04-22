@@ -1523,9 +1523,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="5484" name="z_spring_tree" tilewidth="16" tileheight="16" tilecount="28" columns="4">
-  <image source="spring_tree.png" width="64" height="112"/>
- </tileset>
+ <tileset firstgid="5484" source="z_cherryTree.tsx"/>
  <layer id="1" name="Back" width="4" height="5">
   <data encoding="csv">
 1549,1549,1550,1547,

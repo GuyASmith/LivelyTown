@@ -131,13 +131,13 @@
  <objectgroup id="6" name="Buildings">
   <object id="27" name="TileData" x="64" y="176" width="16" height="16">
    <properties>
-    <property name="Action" value="Buy Corner"/>
+    <property name="Action" value=""/>
     <property name="Shop" value="CarolineCorner"/>
    </properties>
   </object>
   <object id="28" name="TileData" x="64" y="160" width="16" height="16">
    <properties>
-    <property name="Action" value="Buy Corner"/>
+    <property name="Action" value=""/>
     <property name="Shop" value="CarolineCorner"/>
    </properties>
   </object>

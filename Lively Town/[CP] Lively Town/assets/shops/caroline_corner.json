@@ -1,0 +1,146 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"GuiSmith.LivelyTown_CarolineCorner": {
+					"Owners": [
+						{
+							"Name": "Caroline",
+							"Dialogues": [
+								{
+									"Id": "GuiSmith.LivelyTown_CarolineCornerDefault",
+									"Dialogue": "Welcome to the Corner Store, what're you looking for?"
+								}
+							],
+							"ClosedMessage": "The Corner Store is open Friday to Sunday from 9AM to 5PM."
+						}
+					],
+					"SalableItemTags": ["category_sell_at_pierres"],
+					"Items": [
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_Fiber",
+							"ItemId": "(O)771",
+							"Price": "10",
+							"AvailableStock": "100"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_ApricotSapling",
+							"ItemId": "(O)629",
+							"Price": "2400"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_CherrySapling",
+							"ItemId": "(O)628",
+							"Price": "3400"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_CherrySapling",
+							"ItemId": "(O)630",
+							"Price": "4000"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_AppleSapling",
+							"ItemId": "(O)633",
+							"Price": "4000"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_PeachSapling",
+							"ItemId": "(O)631",
+							"Price": "6000"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_PomegranateSapling",
+							"ItemId": "(O)632",
+							"Price": "6000"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_TulipBulb",
+							"ItemId": "(O)427",
+							"Price": "25"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_Tulip",
+							"ItemId": "(O)591",
+							"Price": "45"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_JazzSeeds",
+							"ItemId": "(O)429",
+							"Price": "40"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_BlueJazz",
+							"ItemId": "(O)597",
+							"Price": "75"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_PoppySeeds",
+							"ItemId": "(O)453",
+							"Price": "125"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_Poppy",
+							"ItemId": "(O)376",
+							"Price": "200"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_SpangleSeeds", // Caroline keeps the Spangles to herself, can't have you buying and returning her stock for her affection (she'd never fall for it anyway)
+							"ItemId": "(O)455",
+							"Price": "65"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_SunflowerSeeds",
+							"ItemId": "(O)431",
+							"Price": "200"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_Sunflower",
+							"ItemId": "(O)421",
+							"Price": "120"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_FairySeeds", // if she ever grows any, she also doesn't sell them; they're pretty, auspicious, and magical
+							"ItemId": "(O)425",
+							"Price": "250"
+						},
+						// The list of characters Caroline sells Bouquets because of your relationship status is limited to those in her perview.
+						// This is wider than the vanilla dating pool, but potentially narrower than Pierre's if you've got mods that enable characters Caroline wouldn't be familiar with.
+						// For example: Caroline doesn't know Sandy, and doesn't magically know to sell to you even if you can date Sandy (unlike Pierre, who we all know is in watchful Qui's pocket)
+						// Consider this Caroline (and by proxy, Pierre) flavor text!
+						// TO-DO: mod compatibility for conditional with SVE
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_Bouquet",
+							"ItemId": "(O)458",
+							"Price": "200",
+							"Condition": "ANY \"PLAYER_FRIENDSHIP_POINTS Current Abigail 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Emily 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Haley 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Leah 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Maru 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Penny 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Alex 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Elliot 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Harvey 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Sam 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Sebastian 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Shane 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Clint 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Gus 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Lewis 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Marnie 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Pam 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Willy 2000\", \"PLAYER_FRIENDSHIP_POINTS Current Wizard 2000\""
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_GreenTea",
+							"ItemId": "(O)614",
+							"Price": "140",
+							"AvailableStock": "10",
+							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1000"
+						},
+						// sell one each of the house plants and seasonal plants (plus the one called "seasonal decor")
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_HousePlantBigCraftable",
+							"RandomItemId": "RANDOM_ITEMS (BC) 0 7",
+							"Price": "60",
+							"AvailableStock": "1",
+							"Condition": "YEAR 3"
+						},
+						{
+							"Id": "GuiSmith.LivelyTown_CCS_SeasonalPlantBigCraftable",
+							"RandomItemId": [ "(BC)48", "(BC)184", "(BC)188", "(BC)192", "(BC)196", "(BC)200", "(BC)204" ],
+							"Price": "60",
+							"AvailableStock": "1",
+							"Condition": "YEAR 3"
+						}
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Blacksmith", "Items" ],
+			"Entries": {
+				"GuiSmith.LivelyTown_Smith_AmethystRing": {
+					"Id": "GuiSmith.LivelyTown_Smith_AmethystRing",
+					"ItemId": "(O)529",
+					"Price": "850",
+					"AvailableStock": "1",
+					"Condition": "PLAYER_HAS_MAIL Current LivelyMail.clintJewellery Received, SYNCED_RANDOM day blacksmith_amethyst_ring 0.2"
+				},
+				"GuiSmith.LivelyTown_Smith_AquamarineRing": {
+					"Id": "GuiSmith.LivelyTown_Smith_AquamarineRing",
+					"ItemId": "(O)531",
+					"Price": "2000",
+					"AvailableStock": "1",
+					"Condition": "PLAYER_HAS_MAIL Current LivelyMail.clintJewellery Received, SYNCED_RANDOM day blacksmith_aquamarine_ring 0.2"
+				},
+				"GuiSmith.LivelyTown_Smith_EmeraldRing": {
+					"Id": "GuiSmith.LivelyTown_Smith_EmeraldRing",
+					"ItemId": "(O)533",
+					"Price": "4000",
+					"AvailableStock": "1",
+					"Condition": "PLAYER_HAS_MAIL Current LivelyMail.clintJewellery Received, SYNCED_RANDOM day blacksmith_emerald_ring 0.2"
+				},
+				"GuiSmith.LivelyTown_Smith_JadeRing": {
+					"Id": "GuiSmith.LivelyTown_Smith_JadeRing",
+					"ItemId": "(O)532",
+					"Price": "2000",
+					"AvailableStock": "1",
+					"Condition": "PLAYER_HAS_MAIL Current LivelyMail.clintJewellery Received, SYNCED_RANDOM day blacksmith_jade_ring 0.2"
+				},
+				"GuiSmith.LivelyTown_Smith_RubyRing": {
+					"Id": "GuiSmith.LivelyTown_Smith_RubyRing",
+					"ItemId": "(O)534",
+					"Price": "4000",
+					"AvailableStock": "1",
+					"Condition": "PLAYER_HAS_MAIL Current LivelyMail.clintJewellery Received, SYNCED_RANDOM day blacksmith_ruby_ring 0.2"
+				},
+				"GuiSmith.LivelyTown_Smith_TopazRing": {
+					"Id": "GuiSmith.LivelyTown_Smith_TopazRing",
+					"ItemId": "(O)530",
+					"Price": "800",
+					"AvailableStock": "1",
+					"Condition": "PLAYER_HAS_MAIL Current LivelyMail.clintJewellery Received, SYNCED_RANDOM day blacksmith_topaz_ring 0.2"
+				}
+			}
+		}
+	]
+}

@@ -7,6 +7,6 @@
 	"EnableFundraiserBooks": true,
 	"EnableHighFriendshipEvents": true,
 	"SpouseNoun": "Partner",
-	"EnableGiveClintGrowth": true,
+	"EnableGiveClintGrowth": false,
 	"EnableEventConsistency": true
 }

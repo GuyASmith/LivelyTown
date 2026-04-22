@@ -1,0 +1,25 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "SeedShop", "Items" ],
+			"Entries": {
+				"GuiSmith.LivelyTown_Pierre_Eggs1": {
+					"Id": "GuiSmith.LivelyTown_Eggs1",
+					"ItemId": "(O)176",
+					"Price": "100",
+					"AvailableStock": "12",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 3900074"
+				},
+				"GuiSmith.LivelyTown_Pierre_Eggs2": {
+					"Id": "GuiSmith.LivelyTown_Eggs2",
+					"ItemId": "(O)180",
+					"Price": "100",
+					"AvailableStock": "12",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 3900074"
+				}
+			}
+		}
+	]
+}

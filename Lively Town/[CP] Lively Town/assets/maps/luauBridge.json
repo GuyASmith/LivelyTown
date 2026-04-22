@@ -6,7 +6,18 @@
             "FromFile": "assets/maps/festivalBridge.tmx",
 			"ToArea": { "X": 58, "Y": 13, "Width": 4, "Height": 1},
 			"When": {
-				"HasFlag": "beachBridgeFixed"
+				"HasFlag": "beachBridgeFixed",
+				"StardewExpanded": false
+			}
+		},
+		{ // force apply when SVE
+			"Action": "EditMap",
+            "Target": "Maps/Beach-Luau",
+            "FromFile": "assets/maps/festivalBridge.tmx",
+			"ToArea": { "X": 58, "Y": 13, "Width": 4, "Height": 1},
+			"When": {
+				"HasFlag": "beachBridgeFixed",
+				"StardewExpanded": true
 			}
 		}
 	]

@@ -1,0 +1,26 @@
+{
+	"GuiSmith.LivelyTown_ClintJewellery/Friendship Clint 1750/!SawEvent 113192004": "
+		none/
+		1000 -1000/
+		farmer -100 -100 0 Clint 8 12 1/
+		addTemporaryActor ClintHammer 32 32 8 12 1 true character/
+		animate ClintHammer false true 75 8 8 8 8 8 8 8 8 8 8 8 8 10 10 11 9 8 8 8 8/
+		addObject 9 11 516/
+		viewport 2 2/
+		skippable/
+		playSound fireball/
+		pause 400/
+		viewport move 5 7 5000/
+		playSound clank/
+		pause 1000/
+		playSound clank/
+		pause 1500/
+		playSound clank/
+		pause 500/
+		playSound fireball/
+		pause 500/
+		playSound clank/
+		fade/
+		viewport move -1000 -1000 1/
+		end"
+}

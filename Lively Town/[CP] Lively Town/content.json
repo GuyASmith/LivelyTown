@@ -1,10 +1,10 @@
 {
-    "Format": "1.25.0", // BEWARE: this file may contain spoilers about work-in-progress or unimplemented features. Treat them more as easter eggs than guaranteed future features.
+    "Format": "2.0.0", // BEWARE: this file may contain spoilers about work-in-progress or unimplemented features. Treat them more as easter eggs than guaranteed future features.
 	"ConfigSchema": {
 		"EnableLuauBridge": {
 			"AllowValues": "true, false",
 			"Default": true,
-			"Description": "The Luau festival always shows the bridge on the beach as broken, even if the bridge was repaired. This fixes that."
+			"Description": "IF YOU SEE THIS I18N NOT WORKING LIKE I THOUGHT"
 		},
 		"EnableNightMarketBridge": {
 			"AllowValues": "true, false",
@@ -30,7 +30,7 @@
 		"EnableFundraiserBooks": {
 			"AllowValues": "true, false",
 			"Default": true,
-			"Description": "Haley fundraises to get new books for the kids at 14 hearts. This neatens up the library and adds fuller shelves after Lewis is pressured by the townsfolk to do more with their business taxes. Automatically ignored and turned off if Stardew Valley Expanded is installed."
+			"Description": "Haley fundraises to get new books for the kids at 14 hearts. This neatens up the library and adds fuller shelves after Lewis is pressured by the townsfolk to do more with their business taxes. Automatically ignored if Stardew Valley Expanded is installed."
 		},
 		"EnableCarolineCorner": {
 			"AllowValues": "true, false",
@@ -47,15 +47,15 @@
 			"Default": "Counter",
 			"Description": "Entirely visual, determines how eggs are visually shown as added to Pierre's shop. Set to 'None' if you have other mods creating conflicts."
 		},
-		"EnableGiveClintGrowth": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "ALPHA FEATURE: Makes Clint less creepy and grow a little. He normally stagnates at 6 hearts, if you even get that event. This expands beyond that."
-		},
 		"EnableEvelynsGardening": {
 			"AllowValues": "True, DialogueOnly, False",
 			"Default": "True",
 			"Description": "ALPHA FEATURE: Makes the tree outside of Evelyn's house a cherry tree and gives her more plant pots. She might give you jelly and cherries as gifts, some people reference it, and optionally you'll be able to see them on the tree. If 'DialogueOnly', you'll only have the dialogue and gifts; use this option if you have recolor mods installed. Credit to dollynhoevida on Nexus for the idea."
+		},
+		"EnableGiveClintGrowth": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Description": "ALPHA FEATURE, INCOMPLETE, ON HOLD UNTIL 1.7: Makes Clint less creepy and grow a little. He normally stagnates at 6 hearts, if you even get that event. This expands beyond that."
 		}
 	},
 	"DynamicTokens": [
@@ -80,9 +80,64 @@
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP"
 			}
+		},
+		{
+			"Name": "EditBlacksmith",
+			"Value": false
+		},
+		{
+			"Name": "EditBlacksmith",
+			"Value": true,
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		},
+		{
+			"Name": "EditBlacksmith",
+			"Value": true,
+			"When": {
+				"HasMod": "Arknir.Lucikiel"
+			}
+		},
+		{
+			"Name": "EditBlacksmith",
+			"Value": true,
+			"When": {
+				"HasMod": "foggy.LfL"
+			}
+		},
+		{
+			"Name": "EditBlacksmith",
+			"Value": true,
+			"When": {
+				"HasMod": "ClintMarriageMod"
+			}
+		},
+		{
+			"Name": "PlatonicRelationshipsAndFriendships",
+			"Value": false
+		},
+		{
+			"Name": "PlatonicRelationshipsAndFriendships",
+			"Value": true,
+			"When": {
+				"HasMod": "Amaranthacyan.PlatonicPartnersandFriendships"
+			}
+		},
+		{
+			"Name": "UiInfoIcon",
+			"Value": false
+		},
+		{
+			"Name": "UiInfoIcon",
+			"Value": true,
+			"When": {
+				"HasMod": "DazUki.UIInfoSuite2Alt"
+			}
 		}
 	],
     "Changes": [
+		// Caroline Corner
 		{
 			"Action": "Include",
 			"FromFile": "assets/events/caroline_corner_event.json",
@@ -102,6 +157,42 @@
 			"FromFile": "assets/schedules/caroline_schedule.json",
 			"When": {
 				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/shops/caroline_corner.json",
+			"When": {
+				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/GuiSmith.LivelyTown/Icons",
+			"FromFile": "assets/icons/caroline-corner.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/DazUki.UIInfoSuite2Alt/CustomIcons",
+			"Entries": {
+				"GuiSmith.LivelyTown.MyIcon": {
+					"Texture": "Mods/GuiSmith.LivelyTown/Icons",
+					"SourceRect": { "X": 0, "Y": 0, "Width": 20, "Height": 20 },
+					"HoverText": "{{i18n:Compat.CarolineCornerIconTooltip}}"
+				}
+			},
+			"When": {
+				"EnableCarolineCorner": true,
+				"DayOfWeek": "Fri, Sat, Sun",
+				"HasFlag": "LivelyMail.showCornerShop"
+			}
+		},
+		// Shane's Eggs
+		{
+			"Action": "Include",
+			"FromFile": "assets/shops/pierres_eggs.json",
+			"When": {
+				"EnableShanesEggs": true
 			}
 		},
 		{
@@ -127,6 +218,7 @@
 				"EnableShanesEggs": true
 			}
 		},
+		// Bridge fixes
 		{
 			"Action": "Include",
 			"FromFile": "assets/maps/luauBridge.json",
@@ -141,6 +233,7 @@
 				"EnableNightMarketBridge": true
 			}
 		},
+		// Haley's Fundraiser Books
 		{
 			"Action": "Include",
 			"FromFile": "assets/maps/fundraiserBooks.json",
@@ -149,11 +242,13 @@
 				"StardewExpanded": false
 			}
 		},
+		// HFEs
 		{
 			"Action": "Include",
 			"FromFile": "assets/events/highFriendshipEvents.json",
 			"When": {
-				"EnableHighFriendshipEvents": true
+				"EnableHighFriendshipEvents": true,
+				"HasValue:{{spouse}}{{roommate}}": "true"
 			}
 		},
 		{
@@ -163,6 +258,7 @@
 				"EnableHighFriendshipEvents": true
 			}
 		},
+		// Clint Growth - only left in because I don't want to lose my work on it
 		{
 			"Action": "Include",
 			"FromFile": "assets/events/giveClintGrowth.json",
@@ -172,21 +268,30 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "assets/shops/blacksmith_jewellery.json",
+			"When": {
+				"EnableGiveClintGrowth": true
+			}
+		},
+		// Event Consistency
+		{
+			"Action": "Include",
 			"FromFile": "assets/events/eventConsistency.json",
 			"When": {
 				"EnableEventConsistency": true
 			}
 		},
+		// Evelyn's Gardening
 		{
 			"Action": "Include",
-			"FromFile": "assets/diaglogue/evelynsTree.json",
+			"FromFile": "assets/dialogue/evelynsTree.json",
 			"When": {
 				"EnableEvelynsGardening": "True"
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "assets/diaglogue/evelynsTree.json",
+			"FromFile": "assets/dialogue/evelynsTree.json",
 			"When": {
 				"EnableEvelynsGardening": "DialogueOnly"
 			}
@@ -195,10 +300,9 @@
 			"Action": "Include",
 			"FromFile": "assets/maps/evelynsTree.json",
 			"When": {
-				"EnableEvelynsGardening": "True",
-				"StardewExpanded": "false"
+				"EnableEvelynsGardening": "True"
 			}
-		},
+		}//,
 		//{
 		//	"Action": "Include",
 		//	"FromFile": "assets/maps/evelynsPots.json",
@@ -207,53 +311,6 @@
 		//		"StardewExpanded": "false"
 		//	}
 		//}
-		
-		// THE NOTES // DO NOT READ IF YOU VALUE A SURPRISE OR DON'T WANT DISAPPOINTMENT
-		
-		// IN PROGRESS //
-			// High Friendship Events
-				// gives you the opportunity to see (most) characters' 10-14 heart events when you're married or roommates to someone else, without having to use a poly mod or date them
-			// Less Creepy Clint (a long-term goal)
-				// the guy needs to move on and grow up a bit (whatever it's decided that does)
-				// also, shouldn't he have events *not* related to Emily?
-				// ...eventual jewellery unlock? I feel like Clint having something other than 'just being a smith' like his predecessors would be good for him
-				// STRETCH: order of events changes how he develops, either moving onto better things or going more midlife crisis before evening out
-			// dollynhoevida - improvements to Evelyn
-				// DONE- cherry tree outside house
-				// DONE- randomly might give fruit (or preserves) from fruit tree if friendly enough during fruit season	
-				// more pots in/around her house
-				// plant pots are moved indoors during winter
-		
-		// CONTINUOUSLY IN PROGRESS //
-			// Event Consistency
-				// this game has no continuity supervisor or system, so I guess I can fill in
-				// fixes for events and diaglogue that change things based on past events
-		
-		// CURRENTLY ANTICIPATED TO-DOs //
-			// More Better Gay Stuff
-				// This will add more gay-specific dialogue. We're sorely lacking on anything that isn't titles, adjectives, and pronouns. And even then, us enbies have to use mods to be gendered properly.
-				// Also, spruce up some of the existing queer diaglogue.
-			// Make the Community Centre be (more) used when it's finished (given you didn't sell out to Joja)
-				// STRETCH: also add events (and quests)
-				// STRETCH 2: a festival moves to happen inside/around the Community Centre
-				// STRETCH 3: make places like the bathhouse get more used, especially during the winter
-					// note to self: if implemented, Caroline already does that in the Caroline Corner schedule
-			// Marnie and Lewis's relationship is underdeveloped and nothing happens if you say you'll reveal their relationship, so make it matter
-				// STRETCH: besides at least that one event, make more things happen (i.e. diaglogue, events, schedules, something)
-						// an extrapolation: something about Lewis wanting privacy in his personal life (which we know is defensive based on his GOLD STATUES)
-				// STRETCH 2: more things happen, like a breakup or stabilising/formalising what's happening (because it's at least partially working for them)
-		
-		// STRETCHY / OUT OF SCOPE IDEAS //
-			// TRANSLATIONS PLEASE !?
-				// probably going to have to rely on other people doing it for me :/
-			// Emily clothing service?
-			// Canon-expansion events (STRETCH INDEED) (might be outside scope?)
-				// The kernel of this comes from Shane sending you the Strange Bun recipe, but nothing interesting or funny happens and *everyone* hates it.
-			// Seasonal or special day introductory events?
-				// On the first day of a season, there's some panning around town to show you how some schedules have changed and how the town looks different
-				// During Salmonberry, Crab Mating, and Blackberry seasons, show panning shots of some of the spawning locations with some of the spawned items, given they haven't been nicked by your co-players
-				// When you unlock the Hat Mouse, or on the first Friday or Sunday you visit Cindersap Forest, you get shown the Hat Mouse House or the Travelling Cart respectively
-			// The magical Trash Bear fixes up the Hat Mouse House a bit
 			
     ]
 }
