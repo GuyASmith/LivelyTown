@@ -3,8 +3,8 @@ LIVELY TOWN - 0.3.1
 Makes the town feel more alive and dynamic, from sprucing up NPC behaviour to making more dynamic events.
 
 :: REQUIREMENTS ::
-• Content Patcher 1.25.0+
-• Mail Framework Mod 1.12.2+
+• Content Patcher 2.9.1+
+• Mail Framework Mod 1.20.0+
 
 :: FEATURES ::
 • Caroline's Corner shop, which unlocks after 4 hearts with Caroline in year 2+
