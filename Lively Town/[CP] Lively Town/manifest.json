@@ -9,10 +9,8 @@
 		"UniqueID": "Pathoschild.ContentPatcher"
 	},
 	"Dependencies": [
-		{ "UniqueID": "GuiSmith.LivelyMail", "IsRequired": true },
-		{ "UniqueID": "DazUki.UIInfoSuite2Alt", "IsRequired": false }, // dedicated compatibility
-		{ "UniqueID": "Hana.GenderNeutralityMod", "IsRequired": false }, // dedicated compatibility
-		{ "UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false }, // dedicated compatibility (not guaranteed, but should work)
-		{ "UniqueID": "Amaranthacyan.PlatonicPartnersandFriendships", "IsRequired": false } // dedicated compatibility (not guaranteed, but should work)
+		{ 
+			"UniqueID": "GuiSmith.LivelyMail"
+		}
 	]
 }

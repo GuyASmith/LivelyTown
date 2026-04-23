@@ -1,5 +1,5 @@
 {
-	// // CONFIG // //
+	// CONFIG //
 	"Config.EnableLuauBridge.name": "Enable Luau Bridge Fix",
 	"Config.EnableLuauBridge.description": "The Luau festival always shows the bridge on the beach as broken, even if the bridge was repaired. This fixes that.",
 	"Config.EnableNightMarketBridge.name": "Enable Night Market Bridge Fix",
@@ -202,13 +202,62 @@
 	"VanillaCopy.Event.ShaneHighHeart3.PostDialogue": "You guys must have been really confused when you came in and saw me in front of the arcade machine!$h",
 	
 	// // Sam High Heart event 1
-	"VanillaCopy.Event.SamHighHeart1.Dialogue1": "",
+	"VanillaCopy.Event.SamHighHeart1.Dialogue1": "Oh, hey @. You look like you've been working hard out there!",
+	"VanillaCopy.Event.SamHighHeart1.Dialogue2": "Hey, I was just thinking...$s#$b#You know, I really like living here with you. I mean... I love it!#$b#But, I feel like I've gotten really lazy. I just bum around aimlessly every day.$s",
+	"VanillaCopy.Event.SamHighHeart1.Dialogue3": "Oh, I know you don't mind! You make enough money on the farm that I don't really need to work, and I really appreciate that!#$b#But I want to feel like I'm contributing to something... know what I mean?",
+	"VanillaCopy.Event.SamHighHeart1.Dialogue4": "So... I think I'm gonna try to find some work... something to do with music.#$b#That's always been what I love the most!$h#$b#Oh, uh... besides you, of course!$8#$b#Heh...$10",
+	"VanillaCopy.Event.SamHighHeart1.Dialogue5": "Anyway... I'll let you know how it goes!",
 	// // Sam High Heart event 2
-	"VanillaCopy.Event.SamHighHeart2.Dialogue1": "",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue1": "Hey @, listen to this!$8",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue2": "'Dear Sam, we are pleased to offer you a position as 'junior composer' at Zuzu Broadcasting Group, TV division...'$6#$b#Wow! Music for a TV show! How cool is that?!$h",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue3": "Oh...",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue4": "Oh... Hold on...$s#$b#... It's a TV show for little kids... 'The Happy Junimo Show'$s",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue5": "Not exactly what I had in mind...$s",
+	"VanillaCopy.Event.SamHighHeart2.DialogueOption1": "Just think of this as a stepping stone in your career...",
+	"VanillaCopy.Event.SamHighHeart2.DialogueOption2": "Just think of how happy you'll make the children!",
+	"VanillaCopy.Event.SamHighHeart2.DialogueOption3": "I'm sorry...",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue6": "Hmm... Yeah, I guess that's one way to look at it.$7",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue7": "I mean... you're right, someone's gotta make children's music. But it's not exactly a 'dream job'...$7",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue8": "Ah well... that's okay. I'll make the best of it, like I always do.$7",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue9": "I guess I'd better start 'thinking like a kid'...",
+	"VanillaCopy.Event.SamHighHeart2.DialogueOption4": "That should be easy for you...",
+	"VanillaCopy.Event.SamHighHeart2.DialogueOption5": "You could ask your little brother for help!",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue10": "Hey!",
+	"VanillaCopy.Event.SamHighHeart2.Dialogue11": "Hmm... That's not a bad idea. At the very least, I could play him my songs and see if he likes them.#$b#Thanks for the advice, @.$10",
+	"VanillaCopy.Event.SamHighHeart2.PostDialogue": "I'll be working on this for a few days.",
 	// // Sam High Heart event 3
-	"VanillaCopy.Event.SamHighHeart3.Dialogue1": "",
+	"VanillaCopy.Event.SamHighHeart3.Dialogue1": "Hey, @. I'm making progress on the song... check it out.",
+	"VanillaCopy.Event.SamHighHeart3.Dialogue2": "It's kinda bare-bones right now... but when I add in all the different instruments, it'll come together. You'll see.",
+	"VanillaCopy.Event.SamHighHeart3.Dialogue3": "You know... I'm not too upset about this kid's show idea anymore.#$b#You gotta start somewhere, right?#$b#And hey, maybe I'll be a big hit in the children's concert circuit!$h",
+	"VanillaCopy.Event.SamHighHeart3.PostDialogue": "I'll have the finished song ready soon. I hope they're happy with it!",
 	// // Sam High Heart event 4
-	"VanillaCopy.Event.SamHighHeart4.Dialogue1": "",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue1": "I'm really excited, Sam!",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue2": "Okay, okay, Vince... I'm gonna put the song on right away.$h#$b#Now, you gotta listen really close, so you can tell me if you like it afterwards. Okay?",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue3": "OK!",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue4": "I loved it!$h",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue5": "Me too!",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue6": "Wow! I wasn't expecting such an overwhelming response!$8#$b#That's great! This is really fun!$h",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue7": "Hey, thanks for all the support with this.#$b#You know... I kind of like making children's music. It's not very glamorous, but I'm making these kids really happy. That's important!$h",
+	"VanillaCopy.Event.SamHighHeart4.Dialogue8": "Here, I wanted to give you this. It's a boombox with the song on it... So you can listen to it whenever you want.",
+	"VanillaCopy.Event.SamHighHeart4.PostDialogue": "I'm just glad to know that my music makes people happy...",
+
+	// // Sebastian saves the frog
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue1": "Hey @... Glad you showed up.",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue2": "There's an injured frog in that bush... I gotta save him!",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue3": "I need your help. Go over to the bush and try to get him to come towards me. I'll wait over here and catch him.",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue4": "Okay... you ready?",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue5": "Now!",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue6": "Got him!",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue7": "Poor little guy... his foot's all mangled. $s",
+	"VanillaCopy.Event.SebastianSavesFrog.DialogueOption1": "What should we do with him?",
+	"VanillaCopy.Event.SebastianSavesFrog.DialogueOption2": "It's our new son...",
+	"VanillaCopy.Event.SebastianSavesFrog.DialogueOption3": "I don't think he's going to make it",
+	"VanillaCopy.Event.SebastianSavesFrog.DialogueOption4": "Let's nurse him back to health!",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue8": "I'm gonna take him home for now, and make him comfortable.#$b#I guess I'll do some research on how to take care of frogs. Maybe Marnie knows something.",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue9": "Hah... Yeah, I guess so.$h#$b#He's definitely got your nose...$7",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue10": "Well, sorry if I don't take your word for it... I'm gonna give the poor guy a chance.",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue11": "We'll do our best. But don't get too attached just yet...",
+	"VanillaCopy.Event.SebastianSavesFrog.Dialogue12": "Let's take him home.",
 	
 	
 	// // High Friendship Events // //
@@ -241,6 +290,10 @@
 	"HighFriendshipEvents.Event.HaleyCakewalk.Dialogue22": "...and last, but not least: Pam! You're the lucky winner of @'s deluxe chocolate cake.",
 	"HighFriendshipEvents.Event.HaleyCakewalk.PostDialogue": "It was a big success! Thanks for helping out, @.",
 	
+	// // Sebastian saves frog HFE
+	"HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue9": "Hah... are thigs going so bad at home you want to raise a frog with me instead?$h#$b#He's definitely got your nose...$7",
+	"HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue12": "I'll take him home.",
+
 	
 	// DIALOGUE //
 	// // Evelyn's Gardening & Cherry Tree
