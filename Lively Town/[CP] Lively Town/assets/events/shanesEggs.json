@@ -17,7 +17,7 @@
 					move farmer 8 0 0/
 					faceDirection Jas 2/
 					pause 500/
-					speak Jas \"{{VanillaSimilar.Event.ShanesEggs.Dialogue1}}\"/
+					speak Jas \"{{i18n:VanillaSimilar.Event.ShanesEggs.Dialogue1}}\"/
 					pause 500/
 					faceDirection Jas 0/
 					pause 500/
@@ -48,7 +48,7 @@
 					pause 1500/
 					move chicken4 0 1 2 true/
 					pause 1000/
-					speak Shane \"{{VanillaSimilar.Event.ShanesEggs.Dialogue2}}\"/
+					speak Shane \"{{i18n:VanillaSimilar.Event.ShanesEggs.Dialogue2}}\"/
 					pause 500/
 					stopAnimation Shane/
 					pause 500/
@@ -70,7 +70,7 @@
 					pause 1000/
 					move chicken4 0 -1 0/
 					pause 1000/
-					speak Shane \"{{VanillaSimilar.Event.ShanesEggs.Dialogue3}}\"/
+					speak Shane \"{{i18n:VanillaSimilar.Event.ShanesEggs.Dialogue3}}\"/
 					move chicken2 -1 0 2/
 					pause 1000/
 					move chicken3 0 1 2/
@@ -81,7 +81,7 @@
 					move chicken3 1 0 1 true/
 					move chicken2 1 0 1 true/
 					pause 500/
-					speak Shane \"{{VanillaSimilar.Event.ShanesEggs.Dialogue4}}\"/
+					speak Shane \"{{i18n:VanillaSimilar.Event.ShanesEggs.Dialogue4}}\"/
 					pause 500/
 					playSound doorClose/
 					warp Jas 3 8/
@@ -104,7 +104,7 @@
 					faceDirection chicken3 2/
 					pause 1000/
 					faceDirection Shane 3/
-					speak Shane \"{{VanillaSimilar.Event.ShanesEggs.Dialogue5}}\"/
+					speak Shane \"{{i18n:VanillaSimilar.Event.ShanesEggs.Dialogue5}}\"/
 					animate chicken1 false true 500 16 17/
 					pause 500/
 					animate chicken4 false true 700 16 17/
@@ -114,16 +114,16 @@
 					move farmer 0 -1 1/
 					move farmer 2 0 2/
 					faceDirection Shane 2/
-					speak Shane \"{{VanillaSimilar.Event.ShanesEggs.Dialogue6}}\"/
+					speak Shane \"{{i18n:VanillaSimilar.Event.ShanesEggs.Dialogue6}}\"/
 					faceDirection Shane 3/
-					speak Shane \"{{VanillaSimilar.Event.ShanesEggs.Dialogue7}}\"/
+					speak Shane \"{{i18n:VanillaSimilar.Event.ShanesEggs.Dialogue7}}\"/
 					move Jas 3 0 2/
 					faceDirection Shane 2/
 					pause 2000/
 					showFrame Shane 19/
 					pause 500/
 					pause 1000/
-					end dialogue Shane \"{{VanillaSimilar.Event.ShanesEggs.PostDialogue}}\""
+					end dialogue Shane \"{{i18n:VanillaSimilar.Event.ShanesEggs.PostDialogue}}\""
 			}
 		}
 	]

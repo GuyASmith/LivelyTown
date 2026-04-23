@@ -12,30 +12,30 @@
 					skippable/
 					playSound doorCreak/
 					move farmer 0 -5 0 true/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue1}}\"/
-					speak Pierre \"{{CarolineCorner.Event.Dialogue2}}\"/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue3}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue1}}\"/
+					speak Pierre \"{{i18n:CarolineCorner.Event.Dialogue2}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue3}}\"/
 					move farmer 5 0 0 true/
-					message \"{{CarolineCorner.Event.Dialogue4}}\"/
+					message \"{{i18n:CarolineCorner.Event.Dialogue4}}\"/
 					emote Pierre 40/
 					move Caroline -1 0 3 true/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue5}}\"/
-					speak Pierre \"{{CarolineCorner.Event.Dialogue6}}\"/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue7}}\"/
-					speak Pierre \"{{CarolineCorner.Event.Dialogue8}}\"/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue9}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue5}}\"/
+					speak Pierre \"{{i18n:CarolineCorner.Event.Dialogue6}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue7}}\"/
+					speak Pierre \"{{i18n:CarolineCorner.Event.Dialogue8}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue9}}\"/
 					pause 500/
-					speak Pierre \"{{CarolineCorner.Event.Dialogue10}}\"/
+					speak Pierre \"{{i18n:CarolineCorner.Event.Dialogue10}}\"/
 					emote Caroline 40/
 					pause 1500/
 					playSound reward/
 					emote Caroline 16/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue11}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue11}}\"/
 					playSound dustMeep/
 					jump Pierre/
 					addMailReceived LivelyMail.showCornerShop/
 					emote Pierre 16/
-					end dialogue Pierre \"{{CarolineCorner.Event.PostDialogue}}\""
+					end dialogue Pierre \"{{i18n:CarolineCorner.Event.PostDialogue}}\""
 			}
 		},
 		// Piper rewrite compat -- might be outdated
@@ -50,31 +50,31 @@
 					skippable/
 					playSound doorCreak/
 					move farmer 0 -5 0 true/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue1}}\"/
-					speak Pierre \"{{CarolineCorner.Event.Dialogue2}}\"/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue3}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue1}}\"/
+					speak Pierre \"{{i18n:CarolineCorner.Event.Dialogue2}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue3}}\"/
 					move farmer 5 0 0 true/
-					message \"{{CarolineCorner.Event.Dialogue4}}\"/
+					message \"{{i18n:CarolineCorner.Event.Dialogue4}}\"/
 					emote Pierre 40/
 					move Caroline -1 0 3 true/
-					speak Caroline \"{{CarolineCorner.Event.PiperCompat.Dialogue5}}\"/
-					speak Pierre \"{{CarolineCorner.Event.PiperCompat.Dialogue6}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.PiperCompat.Dialogue5}}\"/
+					speak Pierre \"{{i18n:CarolineCorner.Event.PiperCompat.Dialogue6}}\"/
 					pause 500/
-					speak Caroline \"{{CarolineCorner.Event.PiperCompat.Dialogue7}}\"/		-- is this considered lewd if it's oblique like this/
-					speak Pierre \"{{CarolineCorner.Event.PiperCompat.Dialogue8}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.PiperCompat.Dialogue7}}\"/		-- is this considered lewd if it's oblique like this/
+					speak Pierre \"{{i18n:CarolineCorner.Event.PiperCompat.Dialogue8}}\"/
 					pause 500/
 					emote farmer 8/
-					message \"{{CarolineCorner.Event.PiperCompat.Dialogue9}}\"/
+					message \"{{i18n:CarolineCorner.Event.PiperCompat.Dialogue9}}\"/
 					emote Caroline 40/
 					pause 1500/
 					playSound reward/
 					emote Caroline 16/
-					speak Caroline \"{{CarolineCorner.Event.Dialogue11}}\"/
+					speak Caroline \"{{i18n:CarolineCorner.Event.Dialogue11}}\"/
 					playSound dustMeep/
 					jump Pierre/
 					addMailReceived LivelyMail.showCornerShop/
 					emote Pierre 16/
-					end dialogue Pierre \"{{CarolineCorner.Event.PiperCompat.PostDialogue}}\""
+					end dialogue Pierre \"{{i18n:CarolineCorner.Event.PiperCompat.PostDialogue}}\""
 			},
 			"When": {
 				"HasMod": "piper.holychurros"

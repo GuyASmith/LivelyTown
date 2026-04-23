@@ -13,13 +13,13 @@
 					viewport 34 7 true/
 					move farmer 0 -13 1 true/
 					pause 1000/
-					textAboveHead Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue1}}\"/
+					textAboveHead Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue1}}\"/
 					pause 600/
 					jump Gus/
 					pause 2000/
-					textAboveHead George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue2}}\"/
+					textAboveHead George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue2}}\"/
 					pause 400/
-					textAboveHead Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue3}}\"/
+					textAboveHead Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue3}}\"/
 					faceDirection Kent 3 true/
 					faceDirection Gus 1 true/
 					animate Gus false true 100 22/
@@ -27,7 +27,7 @@
 					shake Gus 500/
 					shake Kent 500/
 					pause 500/
-					textAboveHead George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue4}}\"/
+					textAboveHead George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue4}}\"/
 					pause 1000/
 					stopAnimation Gus/
 					stopAnimation Kent/
@@ -36,55 +36,55 @@
 					pause 1000/
 					faceDirection Alex 3/
 					pause 400/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue5}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue5}}\"/
 					faceDirection Alex 1/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue6}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue6}}\"/
 					pause 500/
 					emote farmer 8/
 					faceDirection Alex 3/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue7}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue7}}\"/
 					pause 500/
 					emote farmer 32/
 					pause 600/
 					faceDirection George 3/
-					speak George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue8}}\"/
+					speak George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue8}}\"/
 					faceDirection Alex 1/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue9}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue9}}\"/
 					pause 500/
-					speak Kent \"{{VanillaCopy.Event.AlexHighHeart.Dialogue10}}\"/
+					speak Kent \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue10}}\"/
 					faceDirection Alex 2/
 					pause 100/
-					textAboveHead Shane \"{{VanillaCopy.Event.AlexHighHeart.Dialogue11}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue11}}\"/
 					pause 1200/
 					fork LivelyMail.ShanesEggs GusUnconcerned/
-					speak Gus \"{{VanillaCopy.Event.AlexHighHeart.Dialogue12}}\"/
+					speak Gus \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue12}}\"/
 					pause 100/
 					faceDirection Shane 2 true/
 					animate Shane false true 100 18/
 					jump Shane/pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.AlexHighHeart.Dialogue13}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue13}}\"/
 					pause 500/
 					emote Alex 32/
 					pause 2000/
 					fade/
 					viewport -1000 -1000/
 					pause 400/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
 					pause 1000/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
 					pause 1000/
-					end dialogue Alex \"{{VanillaCopy.Event.AlexHighHeart.PostDialogue}}\"",
+					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.PostDialogue}}\"",
 				"GusUnconcerned": "
 					speak Gus \"{{EventConsistency.Event.AlexHighHeart.Dialogue16}}\"/
 					pause 2000/
 					fade/
 					viewport -1000 -1000/
 					pause 400/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
 					pause 1000/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
 					pause 1000/
-					end dialogue Alex \"{{VanillaCopy.Event.AlexHighHeart.PostDialogue}}\""
+					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.PostDialogue}}\""
 			},
 			"When": {
 				"EnableHighFriendshipEvents": false,
@@ -95,7 +95,7 @@
 			"Action": "EditData",
             "Target": "Characters/Diaglogue/Caroline",
 			"Entries": {
-				"summer_Mon": "{{EventConsistency.Dialogue.CarolinePierresOpenComment}}"
+				"summer_Mon": "{{i18n:EventConsistency.Dialogue.CarolinePierresOpenComment}}"
 			},
 			"When": {
 				"IsCommunityCenterComplete": true

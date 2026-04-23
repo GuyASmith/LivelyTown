@@ -4,43 +4,29 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
-				"spring_Fri4_1": "I thought it was time I gave you something for our chats and your gifts.#$b
-								  #I like to make jelly with the extra cherries from the tree outside.#$b#Here's my latest jar, just for you.$h [ 344 ]",
-				"spring_Fri6_2": "You run around a lot, but it's nice to catch up sometimes.$h#$b#Here, we have plenty of jelly from the cherry tree. [ 344 ]",
-				"summer_Mon4_1": "You know, the tree out front grows lots of cherries. We have some left over in the fridge that I'm slowly making into jelly.#$b
-								  #I can't cook them all down, but I know you'd enjoy some. [ 638 ]#$b
-								  #I thought I'd share them with someone other than Lewis or Gus for once.",
-				"summer_Mon6_2": "I still have plenty of cherries from our tree.#$e
-								  #Since you're so inquisitive, why don't you take some? It'd be a shame to let them go to waste. [ 638 ]",
-				"spring_Mon": "$1 evelynsTree#I'm sure a farmer would be interested in this: the tree outside our house is a cherry tree old as me.#$b
-							   #At least, that's what we think. It's been there since before I can remember.#$b
-							   #And as a little girl, I took that sort of thing for granted.#$b
-							   #Until I had its cherries, that is.#$b
-							   #At first, they were too tart for a young child like myself. But they were so sweet I kept coming back.#$b
-							   #Then I wouldn't stop fawning over it come the new year.$k
-							   #$e#The old cherry tree is fruiting again.
-							   #$e#It's about time to collect some again.",
-				"spring_Fri6_inlaw_Alex": "It's nice to see you and Alex together.#$b
-										   #As a gift for you two, I have some of his favorite jelly. [ 344 ]"
+				"spring_Fri4_1": "{{i18n:EvelynsGardening.Dialogue.Evelyn.SpringFri4.1}}",
+				"spring_Fri6_2": "{{i18n:EvelynsGardening.Dialogue.Evelyn.SpringFri6.2}}",
+				"summer_Mon4_1": "{{i18n:EvelynsGardening.Dialogue.Evelyn.SummerMon4.1}}",
+				"summer_Mon6_2": "{{i18n:EvelynsGardening.Dialogue.Evelyn.SummerMon6.2}}",
+				"spring_Mon": "{{i18n:EvelynsGardening.Dialogue.Evelyn.SpringMon}}",
+				"spring_Fri6_inlaw_Alex": "{{i18n:EvelynsGardening.Dialogue.Evelyn.SpringFri16.AlexInlaw}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"spring_Sat4": "It's cherry picking day for me.
-								#$e#I like to shake the high branches with my gridball.$u
-							    #$e#If it gets stuck, I just shake the low branches until the cherries *and* the ball fall out."
+				"spring_Sat4": "{{i18n:EvelynsGardening.Dialogue.Alex.SpringSat4}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
-				"spring_1_2": "Now that the leaves are budding, the cherries need picking.#$e#Alex usually collects it all. Maybe an adept farmer like yourself could lend a hand.",
-				"spring_1_2_inlaw_Alex": "It's cherry season again.#$b#Maybe you could help Alex collect them this year.",
-				"spring_Thu8": "There's so many berries to go around, I'm getting sick of cherries.#$b#Not to say I don't miss them when they're all gone.$h",
-				"summer_4": "I already miss looking outside at the cherry blossoms falling.$s"
+				"spring_1_2": "{{i18n:EvelynsGardening.Dialogue.George.Spring1.2}}",
+				"spring_1_2_inlaw_Alex": "{{i18n:EvelynsGardening.Dialogue.George.Spring1.2.AlexInlaw}}",
+				"spring_Thu8": "{{i18n:EvelynsGardening.Dialogue.George.SpringThu8}}",
+				"summer_4": "{{i18n:EvelynsGardening.Dialogue.George.Summer.4}}"
 			}
 		}
 		// TO-DO: dialogue for other people??

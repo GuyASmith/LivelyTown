@@ -13,19 +13,19 @@
 					pause 1000/
 					faceDirection Shane 2/
 					emote Shane 12/
-					speak Shane \"{{HighFriendshipEvents.Event.ShaneSobriety.Dialogue1}}\"/
+					speak Shane \"{{i18n:HighFriendshipEvents.Event.ShaneSobriety.Dialogue1}}\"/
 					pause 500/
 					emote Marnie 20 true/
 					emote farmer 20 true/
 					pause 1300/
 					faceDirection Shane 0/
-					speak Shane \"{{HighFriendshipEvents.Event.ShaneSobriety.Dialogue2}}\"/
+					speak Shane \"{{i18n:HighFriendshipEvents.Event.ShaneSobriety.Dialogue2}}\"/
 					faceDirection Shane 2/
-					speak Shane \"{{HighFriendshipEvents.Event.ShaneSobriety.Dialogue3}}\"/
+					speak Shane \"{{i18n:HighFriendshipEvents.Event.ShaneSobriety.Dialogue3}}\"/
 					pause 500/
 					emote farmer 32/
 					pause 1000/
-					end dialogue Shane \"{{HighFriendshipEvents.Event.ShaneSobriety.PostDialogue}}\""
+					end dialogue Shane \"{{i18n:HighFriendshipEvents.Event.ShaneSobriety.PostDialogue}}\""
 			}
 		},
 		// ALEX SALOON SECTION (wowza)
@@ -70,13 +70,13 @@
 					viewport 34 7 true/
 					move farmer 0 -13 1 true/
 					pause 1000/
-					textAboveHead Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue1}}\"/
+					textAboveHead Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue1}}\"/
 					pause 600/
 					jump Gus/
 					pause 2000/
-					textAboveHead George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue2}}\"/
+					textAboveHead George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue2}}\"/
 					pause 400/
-					textAboveHead Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue3}}\"/
+					textAboveHead Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue3}}\"/
 					faceDirection Kent 3 true/
 					faceDirection Gus 1 true/
 					animate Gus false true 100 22/
@@ -84,7 +84,7 @@
 					shake Gus 500/
 					shake Kent 500/
 					pause 500/
-					textAboveHead George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue4}}\"/
+					textAboveHead George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue4}}\"/
 					pause 1000/
 					stopAnimation Gus/
 					stopAnimation Kent/
@@ -93,45 +93,45 @@
 					pause 1000/
 					faceDirection Alex 3/
 					pause 400/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue5}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue5}}\"/
 					faceDirection Alex 1/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue6}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue6}}\"/
 					pause 500/
 					emote farmer 8/
 					faceDirection Alex 3/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue7}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue7}}\"/
 					pause 500/
 					emote farmer 32/
 					pause 600/
 					faceDirection George 3/
-					speak George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue8}}\"/
+					speak George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue8}}\"/
 					faceDirection Alex 1/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue9}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue9}}\"/
 					pause 500/
-					speak Kent \"{{VanillaCopy.Event.AlexHighHeart.Dialogue10}}\"/
+					speak Kent \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue10}}\"/
 					faceDirection Alex 2/
 					pause 100/
-					textAboveHead Shane \"{{VanillaCopy.Event.AlexHighHeart.Dialogue11}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue11}}\"/
 					pause 1200/
 					fork LivelyMail.ShanesEggs GusUnconcerned/
-					speak Gus \"{{VanillaCopy.Event.AlexHighHeart.Dialogue12}}\"/
+					speak Gus \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue12}}\"/
 					pause 100/
 					faceDirection Shane 2 true/
 					animate Shane false true 100 18/
 					jump Shane/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.AlexHighHeart.Dialogue13}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue13}}\"/
 					pause 500/
 					emote Alex 32/
 					pause 2000/
 					fade/
 					viewport -1000 -1000/
 					pause 400/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
 					pause 1000/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
 					pause 1000/
-					end dialogue Alex \"{{VanillaCopy.Event.AlexHighHeart.PostDialogue}}\"",
+					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.PostDialogue}}\"",
 				
 				"GusUnconcerned": "
 					speak Gus \"{{EventConsistency.Event.AlexHighHeart.Dialogue16}}\"/
@@ -139,11 +139,11 @@
 					fade/
 					viewport -1000 -1000/
 					pause 400/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
 					pause 1000/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
 					pause 1000/
-					end dialogue Alex \"{{VanillaCopy.Event.AlexHighHeart.PostDialogue}}\""
+					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.PostDialogue}}\""
 			},
 			"When": {
 				"EnableEventConsistency": true
@@ -159,13 +159,13 @@
 					viewport 34 7 true/
 					move farmer 0 -13 1 true/
 					pause 1000/
-					textAboveHead Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue1}}\"/
+					textAboveHead Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue1}}\"/
 					pause 600/
 					jump Gus/
 					pause 2000/
-					textAboveHead George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue2}}\"/
+					textAboveHead George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue2}}\"/
 					pause 400/
-					textAboveHead Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue3}}\"/
+					textAboveHead Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue3}}\"/
 					faceDirection Kent 3 true/
 					faceDirection Gus 1 true/
 					animate Gus false true 100 22/
@@ -173,7 +173,7 @@
 					shake Gus 500/
 					shake Kent 500/
 					pause 500/
-					textAboveHead George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue4}}\"/
+					textAboveHead George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue4}}\"/
 					pause 1000/
 					stopAnimation Gus/
 					stopAnimation Kent/
@@ -182,44 +182,44 @@
 					pause 1000/
 					faceDirection Alex 3/
 					pause 400/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue5}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue5}}\"/
 					faceDirection Alex 1/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue6}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue6}}\"/
 					pause 500/
 					emote farmer 8/
 					faceDirection Alex 3/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue7}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue7}}\"/
 					pause 500/
 					emote farmer 32/
 					pause 600/
 					faceDirection George 3/
-					speak George \"{{VanillaCopy.Event.AlexHighHeart.Dialogue8}}\"/
+					speak George \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue8}}\"/
 					faceDirection Alex 1/
-					speak Alex \"{{VanillaCopy.Event.AlexHighHeart.Dialogue9}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue9}}\"/
 					pause 500/
-					speak Kent \"{{VanillaCopy.Event.AlexHighHeart.Dialogue10}}\"/
+					speak Kent \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue10}}\"/
 					faceDirection Alex 2/
 					pause 100/
-					textAboveHead Shane \"{{VanillaCopy.Event.AlexHighHeart.Dialogue11}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue11}}\"/
 					pause 1200/
-					speak Gus \"{{VanillaCopy.Event.AlexHighHeart.Dialogue12}}\"/
+					speak Gus \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue12}}\"/
 					pause 100/
 					faceDirection Shane 2 true/
 					animate Shane false true 100 18/
 					jump Shane/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.AlexHighHeart.Dialogue13}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue13}}\"/
 					pause 500/
 					emote Alex 32/
 					pause 2000/
 					fade/
 					viewport -1000 -1000/
 					pause 400/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue14}}\"/
 					pause 1000/
-					message \"{{VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
+					message \"{{i18n:VanillaCopy.Event.AlexHighHeart.Dialogue15}}\"/
 					pause 1000/
-					end dialogue Alex \"{{VanillaCopy.Event.AlexHighHeart.PostDialogue}}\""
+					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.PostDialogue}}\""
 			},
 			"When": {
 				"EnableEventConsistency": false
@@ -250,14 +250,14 @@
 					faceDirection farmer 1 true/
 					pause 100/
 					faceDirection farmer 0/
-					speak Alex \"{{VanillaCopy.Event.AlexAskForMoney.Dialogue1}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexAskForMoney.Dialogue1}}\"/
 					pause 1000/
-					question fork0 \"{{VanillaCopy.Event.AlexAskForMoney.Dialogue2}}#{{VanillaCopy.Event.AlexAskForMoney.DialogueOption1}}#{{VanillaCopy.Event.AlexAskForMoney.DialogueOption2}}\"/
+					question fork0 \"{{i18n:VanillaCopy.Event.AlexAskForMoney.Dialogue2}}#{{i18n:VanillaCopy.Event.AlexAskForMoney.DialogueOption1}}#{{i18n:VanillaCopy.Event.AlexAskForMoney.DialogueOption2}}\"/
 					fork giveAlexMoney/
 					playMusic none/
 					pause 1000/
 					emote Alex 12/
-					speak Alex \"{{VanillaCopy.Event.AlexAskForMoney.Dialogue3}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexAskForMoney.Dialogue3}}\"/
 					pause 500/
 					faceDirection Alex 1 true/
 					pause 100/
@@ -265,12 +265,12 @@
 					pause 500/
 					emote Alex 28/
 					pause 400/
-					speak Alex \"{{VanillaCopy.Event.AlexAskForMoney.Dialogue4}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexAskForMoney.Dialogue4}}\"/
 					pause 800/
 					playSound doorClose/
 					warp Alex -100 -100/
 					pause 2000/
-					end dialogue Alex \"{{VanillaCopy.Event.AlexAskForMoney.BadPostDialogue}}\"",
+					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexAskForMoney.BadPostDialogue}}\"",
 				
 				"3912125/f Elliott 3500/O Elliott/t 500 1500/p Elliott/U 8/l LivelyMail.ElliottBookTour": "
 					continue/
@@ -297,26 +297,26 @@
 					showFrame Elliott 39/
 					emote Elliott 16/
 					pause 500/
-					speak Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.Dialogue1}}\"/
+					speak Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.Dialogue1}}\"/
 					pause 50/
 					jump Elliott/
 					pause 500/
-					speak Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.Dialogue2}}\"/
+					speak Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.Dialogue2}}\"/
 					emote farmer 32/
 					showFrame Elliott 0/
 					faceDirection Elliott 1/
 					pause 500/
 					emote Elliott 28/
 					pause 400/
-					speak Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.Dialogue3}}\"/
-					quickQuestion #{{VanillaCopy.Event.ElliotBookTourStart.DialogueOption1}}#{{VanillaCopy.Event.ElliotBookTourStart.DialogueOption2}}#{{VanillaCopy.Event.ElliotBookTourStart.DialogueOption3}}(break)
+					speak Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.Dialogue3}}\"/
+					quickQuestion #{{i18n:VanillaCopy.Event.ElliotBookTourStart.DialogueOption1}}#{{i18n:VanillaCopy.Event.ElliotBookTourStart.DialogueOption2}}#{{i18n:VanillaCopy.Event.ElliotBookTourStart.DialogueOption3}}(break)
 					emote Elliott 20\\
-					speak Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.Dialogue4}}\"\\
+					speak Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.Dialogue4}}\"\\
 					emote farmer 20(break)
 					jump Elliott\\
 					pause 500\\
-					speak Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.Dialogue5}}\"(break)
-					speak Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.Dialogue6}}\"/
+					speak Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.Dialogue5}}\"(break)
+					speak Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.Dialogue6}}\"/
 					pause 1000/
 					animate Elliott true true 100 35/
 					animate farmer true true 100 101/
@@ -326,8 +326,8 @@
 					showFrame Elliott 4/
 					stopAnimation farmer/
 					pause 500/
-					speak Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.Dialogue7}}\"/
-					end dialogue Elliott \"{{VanillaCopy.Event.ElliotBookTourStart.PostDialogue}}\"",
+					speak Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.Dialogue7}}\"/
+					end dialogue Elliott \"{{i18n:VanillaCopy.Event.ElliotBookTourStart.PostDialogue}}\"",
 				
 				"3911124/f Leah 3500/O Leah/t 500 820/w sunny/z winter/d Sun/l LivelyMail.LeahPaintEvent/k 113191110 113191111 113191112 113191113 113191114 113191115 113191116 113191117 113191118 113191119 1131911120 1131911121": "
 					continue/
@@ -349,11 +349,11 @@
 					faceDirection farmer 1 true/
 					pause 100/
 					faceDirection farmer 0/
-					speak Leah \"{{VanillaCopy.Event.LeahPaintingStarter.Dialogue1}}\"/
+					speak Leah \"{{i18n:VanillaCopy.Event.LeahPaintingStarter.Dialogue1}}\"/
 					pause 1000/
-					speak Leah \"{{VanillaCopy.Event.LeahPaintingStarter.Dialogue2}}\"/
+					speak Leah \"{{i18n:VanillaCopy.Event.LeahPaintingStarter.Dialogue2}}\"/
 					emote farmer 32/
-					end dialogue Leah \"{{VanillaCopy.Event.LeahPaintingStarter.PostDialogue}}\"",
+					end dialogue Leah \"{{i18n:VanillaCopy.Event.LeahPaintingStarter.PostDialogue}}\"",
 				
 				"3917600/Friendship Emily 3500/Spouse Emily/Time 500 820/!LocalMail LivelyMail.EmilyQuest/!SawEvent 113191135 GuiSmith.LivelyTown_EmilyGiveYouHfeQuest": "
 					continue/
@@ -374,14 +374,14 @@
 					faceDirection farmer 1 true/
 					pause 100/
 					faceDirection farmer 0/
-					speak Emily \"{{VanillaCopy.Event.EmilyClothingStarter.Dialogue1}}\"/
+					speak Emily \"{{i18n:VanillaCopy.Event.EmilyClothingStarter.Dialogue1}}\"/
 					move farmer 0 -1 0/
-					speak Emily \"{{VanillaCopy.Event.EmilyClothingStarter.Dialogue2}}\"/
+					speak Emily \"{{i18n:VanillaCopy.Event.EmilyClothingStarter.Dialogue2}}\"/
 					addQuest 126/
 					pause 500/
-					speak Emily \"{{VanillaCopy.Event.EmilyClothingStarter.Dialogue3}}\"/
+					speak Emily \"{{i18n:VanillaCopy.Event.EmilyClothingStarter.Dialogue3}}\"/
 					pause 2000/
-					end dialogue Emily \"{{VanillaCopy.Event.EmilyClothingStarter.PostDialogue}}\""
+					end dialogue Emily \"{{i18n:VanillaCopy.Event.EmilyClothingStarter.PostDialogue}}\""
 			},
 			"When": {
 				"PlatonicRelationshipsAndFriendships": false
@@ -396,14 +396,14 @@
 					continue/
 					64 15/
 					farmer 64 15 0 Alex 64 17 2/
-					speak Alex \"{{HighFriendshipEvents.Event.AlexAskForMoney.Dialogue5}}\"/
+					speak Alex \"{{i18n:HighFriendshipEvents.Event.AlexAskForMoney.Dialogue5}}\"/
 					pause 1000/
-					question fork0 \"{{VanillaCopy.Event.AlexAskForMoney.Dialogue2}}#{{VanillaCopy.Event.AlexAskForMoney.DialogueOption1}}#{{VanillaCopy.Event.AlexAskForMoney.DialogueOption2}}\"/
+					question fork0 \"{{i18n:VanillaCopy.Event.AlexAskForMoney.Dialogue2}}#{{i18n:VanillaCopy.Event.AlexAskForMoney.DialogueOption1}}#{{i18n:VanillaCopy.Event.AlexAskForMoney.DialogueOption2}}\"/
 					fork giveAlexMoneyFriend/
 					playMusic none/
 					pause 1000/
 					emote Alex 12/
-					speak Alex \"{{VanillaCopy.Event.AlexAskForMoney.Dialogue3}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexAskForMoney.Dialogue3}}\"/
 					pause 500/
 					faceDirection Alex 1 true/
 					pause 100/
@@ -411,12 +411,12 @@
 					pause 500/
 					emote Alex 28/
 					pause 400/
-					speak Alex \"{{VanillaCopy.Event.AlexAskForMoney.Dialogue4}}\"/
+					speak Alex \"{{i18n:VanillaCopy.Event.AlexAskForMoney.Dialogue4}}\"/
 					pause 800/
 					playSound doorClose/
 					warp Alex -100 -100/
 					pause 2000/
-					end dialogue Alex \"{{VanillaCopy.Event.AlexAskForMoney.BadPostDialogue}}\"",
+					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexAskForMoney.BadPostDialogue}}\"",
 				
 				"giveAlexMoneyFriend": "
 					pause 200/
@@ -425,7 +425,7 @@
 					money -5000/
 					emote Alex 20/
 					pause 500/
-					speak Alex \"{{HighFriendshipEvents.Event.AlexAskForMoney.Dialogue6}}\"/
+					speak Alex \"{{i18n:HighFriendshipEvents.Event.AlexAskForMoney.Dialogue6}}\"/
 					pause 500/
 					end",
 				
@@ -434,11 +434,11 @@
 					64 15/
 					farmer 64 15 2 Leah 64 17 0/
 					addConversationTopic leahPaint 0/
-					speak Leah \"{{VanillaCopy.Event.LeahPaintingStarter.Dialogue1}}\"/
+					speak Leah \"{{i18n:VanillaCopy.Event.LeahPaintingStarter.Dialogue1}}\"/
 					pause 1000/
-					speak Leah \"{{VanillaCopy.Event.LeahPaintingStarter.Dialogue2}}\"/
+					speak Leah \"{{i18n:VanillaCopy.Event.LeahPaintingStarter.Dialogue2}}\"/
 					emote farmer 32/
-					end dialogue Leah \"{{VanillaCopy.Event.LeahPaintingStarter.PostDialogue}}\"",
+					end dialogue Leah \"{{i18n:VanillaCopy.Event.LeahPaintingStarter.PostDialogue}}\"",
 				
 				"GuiSmith.LivelyTown_EmilyGiveYouHfeQuest/Friendship Emily 2000/!Spouse Emily/Time 500 820/!LocalMail LivelyMail.EmilyQuest/!SawEvent 113191123 113191124 113191125 113191126 113191127 113191128 113191129 113191130 113191131 113191132 113191133 113191134": "
 					continue/
@@ -446,14 +446,14 @@
 					farmer 64 15 2 Emily 64 17 0/
 					playSound doorClose/
 					pause 300/
-					speak Emily \"{{HighFriendshipEvents.Event.EmilyClothingStarter.Dialogue1}}\"/
+					speak Emily \"{{i18n:HighFriendshipEvents.Event.EmilyClothingStarter.Dialogue1}}\"/
 					emote farmer 8/
-					speak Emily \"{{HighFriendshipEvents.Event.EmilyClothingStarter.Dialogue2}}\"/
+					speak Emily \"{{i18n:HighFriendshipEvents.Event.EmilyClothingStarter.Dialogue2}}\"/
 					addQuest 11319/
 					pause 500/
-					speak Emily \"{{HighFriendshipEvents.Event.EmilyClothingStarter.Dialogue3}}\"/
+					speak Emily \"{{i18n:HighFriendshipEvents.Event.EmilyClothingStarter.Dialogue3}}\"/
 					pause 2000/
-					end dialogue Emily \"{{VanillaCopy.Event.EmilyClothingStarter.PostDialogue}}\""
+					end dialogue Emily \"{{i18n:VanillaCopy.Event.EmilyClothingStarter.PostDialogue}}\""
 			}
 		},
 		// MAIL TRIGGER ACTIONS - ELLIOT
@@ -540,7 +540,7 @@
 					pause 250/
 					move Emily 1 0 0/
 					move Emily 0 2 0/
-					speak Emily \"{{HighFriendshipEvents.Event.EmilyClothingFinisher.Dialogue1}}\"/
+					speak Emily \"{{i18n:HighFriendshipEvents.Event.EmilyClothingFinisher.Dialogue1}}\"/
 					faceDirection farmer 1/
 					playSound woodyStep/
 					addObject 15 20 72/
@@ -550,11 +550,11 @@
 					pause 400/
 					faceDirection farmer 1/
 					faceDirection farmer 2/
-					speak Emily \"{{HighFriendshipEvents.Event.EmilyClothingFinisher.Dialogue2}}\"/
+					speak Emily \"{{i18n:HighFriendshipEvents.Event.EmilyClothingFinisher.Dialogue2}}\"/
 					removeObject 15 20/
-					speak Emily\"{{HighFriendshipEvents.Event.EmilyClothingFinisher.Dialogue3}}\"/
+					speak Emily\"{{i18n:HighFriendshipEvents.Event.EmilyClothingFinisher.Dialogue3}}\"/
 					mail LivelyMail.EmilyReward/
-					end dialogue Emily \"{{HighFriendshipEvents.Event.EmilyClothingFinisher.PostDialogue}}\""
+					end dialogue Emily \"{{i18n:HighFriendshipEvents.Event.EmilyClothingFinisher.PostDialogue}}\""
 			}
 		},
 		// TOWN SECTION
@@ -575,22 +575,22 @@
 					emote Haley 8/
 					faceDirection Haley 3/
 					pause 500/
-					speak Jas \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue1}}\"/
-					speak Penny \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue2}}\"/
+					speak Jas \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue1}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue2}}\"/
 					pause 500/
 					move Penny 0 1 3/
 					pause 500/
-					speak Penny \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue3}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue3}}\"/
 					faceDirection Penny 2/
 					pause 500/
 					showFrame Penny 23/
 					pause 500/
-					speak Penny \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue4}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue4}}\"/
 					pause 500/
 					emote Haley 28/
 					jump Vincent/
 					pause 1500/
-					speak Vincent \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue5}}\"/
+					speak Vincent \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue5}}\"/
 					faceDirection Jas 0/
 					showFrame Penny 27/
 					jump Penny/
@@ -600,7 +600,7 @@
 					warp Haley -1000 -1000/
 					playSound doorClose/
 					pause 1000/
-					end dialogue Haley \"{{VanillaCopy.Event.HaleyHighHeartStarter.PostDialogue}}\"",
+					end dialogue Haley \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.PostDialogue}}\"",
 				
 				"3917584/Friendship Shane 3500/Spouse Shane/!DayOfWeek Fri/Time 800 1700/!LocalMail LivelyMail.ShaneRecovery/!SawEvent GuiSmith.LivelyTown_ShaneRecovery1": "
 					distantBanjo/
@@ -615,17 +615,17 @@
 					faceDirection Jas 3 true/
 					move Shane 0 1 2/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue1}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue1}}\"/
 					pause 500/
 					emote Marnie 28 true/
 					emote Jas 28 true/
 					emote farmer 28 true/
 					pause 1000/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue2}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue2}}\"/
 					advancedMove Shane false -10 0 0 -14 -10 0 0 -3 -10 0/
 					move farmer 0 2 3 true/
 					pause 3000/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue3}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue3}}\"/
 					pause 500/
 					faceDirection Jas 1/
 					emote Jas 28/
@@ -634,13 +634,13 @@
 					move Marnie -3 0 3/
 					faceDirection Jas 3 true/
 					faceDirection farmer 1/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue4}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue4}}\"/
 					pause 1000/
 					faceDirection farmer 2 true/
 					pause 100/
 					faceDirection farmer 3/
 					pause 1000/
-					end dialogue Shane \"{{VanillaCopy.Event.ShaneHighHeart1.PostDialogue}}\"",
+					end dialogue Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.PostDialogue}}\"",
 				
 				"3917585/SawEvent 3917584/Spouse Shane/!ActiveDialogueEvent shaneSaloon1/!SawEvent 113191089 GuiSmith.LivelyTown_ShaneRecovery2": "
 					distantBanjo/
@@ -657,23 +657,23 @@
 					emote farmer 16/
 					advancedMove Shane false -7 0/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue1}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue1}}\"/
 					move farmer 0 2 1/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue2}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue2}}\"/
 					pause 500/
 					emote farmer 40/
 					textAboveHead Shane \"Huh?\"/
 					pause 2000/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue3}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue3}}\"/
 					speed Shane 4/
 					advancedMove Shane false 0 1 -5 0 0 -10/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue4}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue4}}\"/
 					faceDirection farmer 2 true/
 					pause 2000/
 					emote farmer 28 true/
 					pause 3000/
-					end dialogue Shane \"{{VanillaCopy.Event.ShaneHighHeart2.PostDialogue}}\"",
+					end dialogue Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.PostDialogue}}\"",
 				
 				"3917586/SawEvent 3917585/Spouse Shane/!ActiveDialogueEvent shaneSaloon2/!SawEvent 113191090 GuiSmith.LivelyTown_ShaneRecovery3": "
 					spring_day_ambient/
@@ -684,7 +684,7 @@
 					emote Shane 56 true/
 					move Shane 8 0 0/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue1}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue1}}\"/
 					pause 500/
 					move Shane 0 -1 0/
 					playSound doorClose/
@@ -694,7 +694,7 @@
 					showFrame 0/
 					emote farmer 12 true/
 					emote Marnie 12/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue2}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue2}}\"/
 					move farmer 0 1 3/
 					move farmer -2 0 0/
 					move farmer 0 -1 0/
@@ -758,10 +758,10 @@
 					playSound cowboy_dead/
 					jump Shane/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue3}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue3}}\"/
 					pause 2000/
 					playMusic distantBanjo/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue4}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue4}}\"/
 					pause 3000/
 					faceDirection Shane 1 true/
 					pause 100/
@@ -772,18 +772,18 @@
 					stopAnimation Shane/
 					showFrame Shane 0/
 					emote Shane 16/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue5}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue5}}\"/
 					faceDirection Marnie 1 true/
 					faceDirection farmer 3/
 					faceDirection Marnie 0 true/
 					faceDirection farmer 0/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue6}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue6}}\"/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue7}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue7}}\"/
 					faceDirection Shane 1 true/
 					pause 100/
 					faceDirection Shane 0/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue8}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue8}}\"/
 					pause 500/
 					faceDirection Shane 1 true/
 					pause 100/
@@ -791,48 +791,48 @@
 					pause 500/
 					animate Shane false true 100 34/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue9}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue9}}\"/
 					pause 500/
 					stopAnimation Shane/
 					pause 100/
 					move Marnie 0 -1 1/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue10}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue10}}\"/
 					pause 500/
 					faceDirection Shane 3/
 					pause 200/
 					emote Shane 8/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue11}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue11}}\"/
 					pause 1000/
 					faceDirection Shane 2/
 					pause 200/
 					faceDirection Shane 3/
 					faceDirection Shane 2/
 					faceDirection Shane 3/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue12}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue12}}\"/
 					faceDirection Marnie 2/
 					emote Marnie 28/
 					faceDirection Shane 2/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue13}}\"/
-					question fork0 \"#{{VanillaCopy.Event.ShaneHighHeart3.DialogueOption1}}#{{VanillaCopy.Event.ShaneHighHeart3.DialogueOption2}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue13}}\"/
+					question fork0 \"#{{i18n:VanillaCopy.Event.ShaneHighHeart3.DialogueOption1}}#{{i18n:VanillaCopy.Event.ShaneHighHeart3.DialogueOption2}}\"/
 					fork wewereworried/
 					emote farmer 40/
 					faceDirection Marnie 1/
 					pause 1000/
 					faceDirection Shane 2/
 					emote Shane 40/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue14}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue14}}\"/
 					pause 500/
 					emote Marnie 20 true/
 					emote farmer 20 true/
 					pause 1300/
 					faceDirection Shane 0/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue15}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue15}}\"/
 					faceDirection Shane 2/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue16}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue16}}\"/
 					pause 1000/
 					emote farmer 32/
 					pause 1000/
-					end dialogue Shane \"{{VanillaCopy.Event.ShaneHighHeart3.PostDialogue}}\""
+					end dialogue Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.PostDialogue}}\""
 			},
 			"When": {
 				"PlatonicRelationshipsAndFriendships": false
@@ -856,22 +856,22 @@
 					emote Haley 8/
 					faceDirection Haley 3/
 					pause 500/
-					speak Jas \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue1}}\"/
-					speak Penny \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue2}}\"/
+					speak Jas \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue1}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue2}}\"/
 					pause 500/
 					move Penny 0 1 3/
 					pause 500/
-					speak Penny \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue3}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue3}}\"/
 					faceDirection Penny 2/
 					pause 500/
 					showFrame Penny 23/
 					pause 500/
-					speak Penny \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue4}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue4}}\"/
 					pause 500/
 					emote Haley 28/
 					jump Vincent/
 					pause 1500/
-					speak Vincent \"{{VanillaCopy.Event.HaleyHighHeartStarter.Dialogue5}}\"/
+					speak Vincent \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.Dialogue5}}\"/
 					faceDirection Jas 0/
 					showFrame Penny 27/
 					jump Penny/
@@ -882,7 +882,7 @@
 					playSound doorClose/
 					pause 1000/
 					addMailReceived LivelyMail.booksBroken/
-					end dialogue Haley \"{{VanillaCopy.Event.HaleyHighHeartStarter.PostDialogue}}\"",
+					end dialogue Haley \"{{i18n:VanillaCopy.Event.HaleyHighHeartStarter.PostDialogue}}\"",
 				
 				// HFE CAKEWALK
 				"GuiSmith.LivelyTown_HaleyCakewalkHfe/LocalMail LivelyMail.cakewalk/!Spouse Haley/!ActiveDialogueEvent haleyCakewalk2/Time 600 1500/Weather sunny/HasItem 220/!SawEvent 6184644 113191038": "
@@ -909,7 +909,7 @@
 					playSound coin/
 					faceDirection farmer 3/
 					faceDirection Haley 1/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue1}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue1}}\"/
 					showFrame Haley 23/
 					playSound slimeHit/
 					pause 400/
@@ -920,15 +920,15 @@
 					pause 400/
 					showFrame Haley 4/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue2}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue2}}\"/
 					faceDirection Haley 2/
 					faceDirection farmer 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue3}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue3}}\"/
 					emote farmer 32/
-					speak Marnie \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue4}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue4}}\"/
 					jump Haley/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue5}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue5}}\"/
 					showFrame Haley 19/
 					playMusic none/
 					playSound whistle/
@@ -939,11 +939,11 @@
 					pause 1000/
 					playMusic distantBanjo/
 					pause 2000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue6}}\"/
-					textAboveHead Emily \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue7}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue6}}\"/
+					textAboveHead Emily \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue7}}\"/
 					jump Vincent/
-					textAboveHead Marnie \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue8}}\"/
-					textAboveHead Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue9}}\"/
+					textAboveHead Marnie \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue8}}\"/
+					textAboveHead Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue9}}\"/
 					faceDirection Pam 0 true/
 					faceDirection Marnie 0 true/
 					faceDirection Vincent 0 true/
@@ -954,66 +954,66 @@
 					faceDirection Caroline 0 true/
 					faceDirection Jodi 0 true/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue10}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue10}}\"/
 					move Haley 0 -1 1/
 					move Haley 6 0 2/
 					move Haley 0 2 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue11}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue11}}\"/
 					emote Marnie 28 true/
-					textAboveHead Caroline \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue12}}\"/
-					pause 1000/speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue13}}\"/
+					textAboveHead Caroline \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue12}}\"/
+					pause 1000/speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue13}}\"/
 					emote Emily 32/
-					textAboveHead Gus \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue14}}\"/
+					textAboveHead Gus \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue14}}\"/
 					pause 1000/
-					speak Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue15}}\"/
+					speak Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue15}}\"/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue16}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue16}}\"/
 					emote Jas 28 true/
 					pause 200/
-					speak Clint \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue17}}\"/
+					speak Clint \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue17}}\"/
 					pause 200/
 					emote Jas 28/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue18}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue18}}\"/
 					jump Vincent/
-					textAboveHead Jodi \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue19}}\"/
+					textAboveHead Jodi \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue19}}\"/
 					pause 800/
 					jump Vincent/
 					pause 800/
 					jump Vincent/
 					pause 800/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue20}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue20}}\"/
 					pause 200/
-					textAboveHead Jodi \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue21}}\"/
+					textAboveHead Jodi \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue21}}\"/
 					pause 800/
 					viewport move 0 -1 1500/
 					move Haley 0 -2 3/
 					move Haley -5 0 2/
-					speak Haley \"{{HighFriendshipEvents.Event.HaleyCakewalk.Dialogue22}}\"/
+					speak Haley \"{{i18n:HighFriendshipEvents.Event.HaleyCakewalk.Dialogue22}}\"/
 					pause 500/
-					textAboveHead Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue23}}\"/
+					textAboveHead Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue23}}\"/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue24}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue24}}\"/
 					pause 500/
-					speak George \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue25}}\"/
+					speak George \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue25}}\"/
 					pause 200/
 					faceDirection Haley 1/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue26}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue26}}\"/
 					faceDirection Penny 3/
 					faceDirection farmer 1 true/
 					emote Penny 8/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue27}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue27}}\"/
 					jump Penny/
 					pause 500/
-					textAboveHead Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue28}}\"/
+					textAboveHead Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue28}}\"/
 					pause 800/
 					faceDirection Penny 2/
-					speak Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue29}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue29}}\"/
 					emote Jas 20 true/
 					emote Vincent 28/
 					pause 500/
 					faceDirection Penny 3/
-					speak Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue30}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue30}}\"/
 					emote farmer 32/
 					viewport move -1 0 3000/
 					advancedMove George false 0 -5 24 0/
@@ -1022,7 +1022,7 @@
 					pause 2000/
 					faceDirection Robin 0/
 					faceDirection Pierre 2/
-					speak Robin \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue31}}\"/
+					speak Robin \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue31}}\"/
 					pause 500/
 					showFrame Lewis 26/
 					jump Lewis/
@@ -1063,7 +1063,7 @@
 					advancedMove Robin false 0 -1 3 100/
 					advancedMove Pierre false 0 1 3 100/
 					pause 1500/
-					end dialogue Haley \"{{HighFriendshipEvents.Event.HaleyCakewalk.PostDialogue}}\"",
+					end dialogue Haley \"{{i18n:HighFriendshipEvents.Event.HaleyCakewalk.PostDialogue}}\"",
 				
 				// ALEX SALOON REMINDER
 				"GuiSmith.LivelyTown_AlexSaloonReminder/LocalMail gaveAlexMoney/!Spouse Alex/DayOfWeek Sun/!SawEvent 113191039": "
@@ -1072,7 +1072,7 @@
 					farmer 100 100 2/
 					addWorldState saloonSportsRoom/
 					addMailReceived saloonSportsRoom/
-					message \"{{HighFriendshipEvents.Event.AlexHighHeartReminder.Dialogue1}}\"/
+					message \"{{i18n:HighFriendshipEvents.Event.AlexHighHeartReminder.Dialogue1}}\"/
 					end",
 				
 				// SHANE 
@@ -1089,17 +1089,17 @@
 					faceDirection Jas 3 true/
 					move Shane 0 1 2/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue1}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue1}}\"/
 					pause 500/
 					emote Marnie 28 true/
 					emote Jas 28 true/
 					emote farmer 28 true/
 					pause 1000/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue2}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue2}}\"/
 					advancedMove Shane false -10 0 0 -14 -10 0 0 -3 -10 0/
 					move farmer 0 2 3 true/
 					pause 3000/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue3}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue3}}\"/
 					pause 500/
 					faceDirection Jas 1/
 					emote Jas 28/
@@ -1108,13 +1108,13 @@
 					move Marnie -3 0 3/
 					faceDirection Jas 3 true/
 					faceDirection farmer 1/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart1.Dialogue4}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.Dialogue4}}\"/
 					pause 1000/
 					faceDirection farmer 2 true/
 					pause 100/
 					faceDirection farmer 3/
 					pause 1000/
-					end dialogue Shane \"{{VanillaCopy.Event.ShaneHighHeart1.PostDialogue}}\"",
+					end dialogue Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart1.PostDialogue}}\"",
 				
 				"GuiSmith.LivelyTown_ShaneRecovery2/LocalMail LivelyMail.ShaneRecovery/!ActiveDialogueEvent shaneSaloon1/!Spouse Shane/!SawEvent 113191089": "
 					distantBanjo/
@@ -1131,22 +1131,22 @@
 					emote farmer 16/
 					advancedMove Shane false -7 0/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue1}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue1}}\"/
 					move farmer 0 2 1/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue2}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue2}}\"/
 					pause 500/emote farmer 40/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue3}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue3}}\"/
 					pause 2000/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue4}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue4}}\"/
 					speed Shane 4/
 					advancedMove Shane false 0 1 -5 0 0 -10/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart2.Dialogue5}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.Dialogue5}}\"/
 					faceDirection farmer 2 true/
 					pause 2000/
 					emote farmer 28 true/
 					pause 3000/
-					end dialogue Shane \"{{VanillaCopy.Event.ShaneHighHeart2.PostDialogue}}\"",
+					end dialogue Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart2.PostDialogue}}\"",
 				
 				"GuiSmith.LivelyTown_ShaneRecovery3/SawEvent GuiSmith.LivelyTown_ShaneRecovery2/!ActiveDialogueEvent shaneSaloon2/!Spouse Shane/!SawEvent 113191090": "
 					spring_day_ambient/
@@ -1157,7 +1157,7 @@
 					emote Shane 56 true/
 					move Shane 8 0 0/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue1}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue1}}\"/
 					pause 500/
 					move Shane 0 -1 0/
 					playSound doorClose/
@@ -1167,7 +1167,7 @@
 					showFrame 0/
 					emote farmer 12 true/
 					emote Marnie 12/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue2}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue2}}\"/
 					move farmer 0 1 3/
 					move farmer -2 0 0/
 					move farmer 0 -1 0/
@@ -1231,10 +1231,10 @@
 					playSound cowboy_dead/
 					jump Shane/
 					pause 500/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue3}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue3}}\"/
 					pause 2000/
 					playMusic distantBanjo/
-					textAboveHead Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue4}}\"/
+					textAboveHead Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue4}}\"/
 					pause 3000/
 					faceDirection Shane 1 true/
 					pause 100/
@@ -1245,18 +1245,18 @@
 					stopAnimation Shane/
 					showFrame Shane 0/
 					emote Shane 16/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue5}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue5}}\"/
 					faceDirection Marnie 1 true/
 					faceDirection farmer 3/
 					faceDirection Marnie 0 true/
 					faceDirection farmer 0/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue6}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue6}}\"/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue7}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue7}}\"/
 					faceDirection Shane 1 true/
 					pause 100/
 					faceDirection Shane 0/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue8}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue8}}\"/
 					pause 500/
 					faceDirection Shane 1 true/
 					pause 100/
@@ -1264,48 +1264,48 @@
 					pause 500/
 					animate Shane false true 100 34/
 					pause 500/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue9}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue9}}\"/
 					pause 500/
 					stopAnimation Shane/
 					pause 100/
 					move Marnie 0 -1 1/
-					speak Marnie \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue10}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue10}}\"/
 					pause 500/
 					faceDirection Shane 3/
 					pause 200/
 					emote Shane 8/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue11}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue11}}\"/
 					pause 1000/
 					faceDirection Shane 2/
 					pause 200/
 					faceDirection Shane 3/
 					faceDirection Shane 2/
 					faceDirection Shane 3/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue12}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue12}}\"/
 					faceDirection Marnie 2/
 					emote Marnie 28/
 					faceDirection Shane 2/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue13}}\"/
-					question fork0 \"#{{VanillaCopy.Event.ShaneHighHeart3.DialogueOption1}}#{{VanillaCopy.Event.ShaneHighHeart3.DialogueOption2}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue13}}\"/
+					question fork0 \"#{{i18n:VanillaCopy.Event.ShaneHighHeart3.DialogueOption1}}#{{i18n:VanillaCopy.Event.ShaneHighHeart3.DialogueOption2}}\"/
 					fork wewereworried/
 					emote farmer 40/
 					faceDirection Marnie 1/
 					pause 1000/
 					faceDirection Shane 2/
 					emote Shane 40/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue14}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue14}}\"/
 					pause 500/
 					emote Marnie 20 true/
 					emote farmer 20 true/
 					pause 1300/
 					faceDirection Shane 0/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue15}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue15}}\"/
 					faceDirection Shane 2/
-					speak Shane \"{{VanillaCopy.Event.ShaneHighHeart3.Dialogue16}}\"/
+					speak Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.Dialogue16}}\"/
 					pause 1000/
 					emote farmer 32/
 					pause 1000/
-					end dialogue Shane \"{{VanillaCopy.Event.ShaneHighHeart3.PostDialogue}}\""
+					end dialogue Shane \"{{i18n:VanillaCopy.Event.ShaneHighHeart3.PostDialogue}}\""
 			}
 		},
 		// // Vanilla event setup - Haley cakewalk (no GenderNeutrality)
@@ -1337,7 +1337,7 @@
 					playSound coin/
 					faceDirection farmer 3/
 					faceDirection Haley 1/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue1}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue1}}\"/
 					showFrame Haley 23/
 					playSound slimeHit/
 					pause 400/
@@ -1348,15 +1348,15 @@
 					pause 400/
 					showFrame Haley 4/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue2}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue2}}\"/
 					faceDirection Haley 2/
 					faceDirection farmer 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue3}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue3}}\"/
 					emote farmer 32/
-					speak Marnie \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue4}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue4}}\"/
 					jump Haley/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue5}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue5}}\"/
 					showFrame Haley 19/
 					playMusic none/
 					playSound whistle/
@@ -1367,11 +1367,11 @@
 					pause 1000/
 					playMusic distantBanjo/
 					pause 2000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue6}}\"/
-					textAboveHead Emily \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue7}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue6}}\"/
+					textAboveHead Emily \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue7}}\"/
 					jump Vincent/
-					textAboveHead Marnie \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue8}}\"/
-					textAboveHead Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue9}}\"/
+					textAboveHead Marnie \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue8}}\"/
+					textAboveHead Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue9}}\"/
 					faceDirection Pam 0 true/
 					faceDirection Marnie 0 true/
 					faceDirection Vincent 0 true/
@@ -1382,67 +1382,67 @@
 					faceDirection Caroline 0 true/
 					faceDirection Jodi 0 true/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue10}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue10}}\"/
 					move Haley 0 -1 1/
 					move Haley 6 0 2/
 					move Haley 0 2 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue11}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue11}}\"/
 					emote Marnie 28 true/
-					textAboveHead Caroline \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue12}}\"/
+					textAboveHead Caroline \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue12}}\"/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue13}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue13}}\"/
 					emote Emily 32/
-					textAboveHead Gus \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue14}}\"/
+					textAboveHead Gus \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue14}}\"/
 					pause 1000/
-					speak Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue15}}\"/
+					speak Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue15}}\"/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue16}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue16}}\"/
 					emote Jas 28 true/
 					pause 200/
-					speak Clint \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue17}}\"/
+					speak Clint \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue17}}\"/
 					pause 200/
 					emote Jas 28/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue18}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue18}}\"/
 					jump Vincent/
-					textAboveHead Jodi \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue19}}\"/
+					textAboveHead Jodi \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue19}}\"/
 					pause 800/
 					jump Vincent/
 					pause 800/
 					jump Vincent/
 					pause 800/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue20}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue20}}\"/
 					pause 200/
-					textAboveHead Jodi \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue21}}\"/
+					textAboveHead Jodi \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue21}}\"/
 					pause 800/
 					viewport move 0 -1 1500/
 					move Haley 0 -2 3/
 					move Haley -5 0 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue22}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue22}}\"/
 					pause 500/
-					textAboveHead Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue23}}\"/
+					textAboveHead Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue23}}\"/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue24}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue24}}\"/
 					pause 500/
-					speak George \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue25}}\"/
+					speak George \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue25}}\"/
 					pause 200/
 					faceDirection Haley 1/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue26}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue26}\"/
 					faceDirection Penny 3/
 					faceDirection farmer 1 true/
 					emote Penny 8/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue27}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue27}}\"/
 					jump Penny/
 					pause 500/
-					textAboveHead Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue28}}\"/
+					textAboveHead Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue28}}\"/
 					pause 800/
 					faceDirection Penny 2/
-					speak Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue29}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue29}}\"/
 					emote Jas 20 true/
 					emote Vincent 28/
 					pause 500/
 					faceDirection Penny 3/
-					speak Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue30}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue30}}\"/
 					emote farmer 32/
 					viewport move -1 0 3000/
 					advancedMove George false 0 -5 24 0/
@@ -1451,7 +1451,7 @@
 					pause 2000/
 					faceDirection Robin 0/
 					faceDirection Pierre 2/
-					speak Robin \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue31}}\"/
+					speak Robin \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue31}}\"/
 					pause 500/
 					showFrame Lewis 26/
 					jump Lewis/
@@ -1492,7 +1492,7 @@
 					advancedMove Robin false 0 -1 3 100/
 					advancedMove Pierre false 0 1 3 100/
 					pause 1500/
-					end dialogue Haley \"{{VanillaCopy.Event.HaleyCakewalk.PostDialogue}}\""
+					end dialogue Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.PostDialogue}}\""
 			},
 			"When": {
 				"GenderNeutrality": false,
@@ -1528,7 +1528,7 @@
 					playSound coin/
 					faceDirection farmer 3/
 					faceDirection Haley 1/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue1}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue1}}\"/
 					showFrame Haley 23/
 					playSound slimeHit/
 					pause 400/
@@ -1539,15 +1539,15 @@
 					pause 400/
 					showFrame Haley 4/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue2}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue2}}\"/
 					faceDirection Haley 2/
 					faceDirection farmer 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue3}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue3}}\"/
 					emote farmer 32/
-					speak Marnie \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue4}}\"/
+					speak Marnie \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue4}}\"/
 					jump Haley/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue5}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue5}}\"/
 					showFrame Haley 19/
 					playMusic none/
 					playSound whistle/
@@ -1558,11 +1558,11 @@
 					pause 1000/
 					playMusic distantBanjo/
 					pause 2000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue6}}\"/
-					textAboveHead Emily \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue7}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue6}}\"/
+					textAboveHead Emily \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue7}}\"/
 					jump Vincent/
-					textAboveHead Marnie \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue8}}\"/
-					textAboveHead Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue9}}\"/
+					textAboveHead Marnie \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue8}}\"/
+					textAboveHead Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue9}}\"/
 					faceDirection Pam 0 true/
 					faceDirection Marnie 0 true/
 					faceDirection Vincent 0 true/
@@ -1573,67 +1573,67 @@
 					faceDirection Caroline 0 true/
 					faceDirection Jodi 0 true/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue10}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue10}}\"/
 					move Haley 0 -1 1/
 					move Haley 6 0 2/
 					move Haley 0 2 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue11}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue11}}\"/
 					emote Marnie 28 true/
-					textAboveHead Caroline \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue12}}\"/
+					textAboveHead Caroline \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue12}}\"/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue13}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue13}}\"/
 					emote Emily 32/
-					textAboveHead Gus \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue14}}\"/
+					textAboveHead Gus \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue14}}\"/
 					pause 1000/
-					speak Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue15}}\"/
+					speak Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue15}}\"/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue16}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue16}}\"/
 					emote Jas 28 true/
 					pause 200/
-					speak Clint \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue17}}\"/
+					speak Clint \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue17}}\"/
 					pause 200/
 					emote Jas 28/
 					pause 500/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue18}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue18}}\"/
 					jump Vincent/
-					textAboveHead Jodi \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue19}}\"/
+					textAboveHead Jodi \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue19}}\"/
 					pause 800/
 					jump Vincent/
 					pause 800/
 					jump Vincent/
 					pause 800/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue20}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue20}}\"/
 					pause 200/
-					textAboveHead Jodi \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue21}}\"/
+					textAboveHead Jodi \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue21}}\"/
 					pause 800/
 					viewport move 0 -1 1500/
 					move Haley 0 -2 3/
 					move Haley -5 0 2/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.GenderNeutralCompat.Dialogue22}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.GenderNeutralCompat.Dialogue22}}\"/
 					pause 500/
-					textAboveHead Pam \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue23}}\"/
+					textAboveHead Pam \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue23}}\"/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue24}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue24}}\"/
 					pause 500/
-					speak George \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue25}}\"/
+					speak George \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue25}}\"/
 					pause 200/
 					faceDirection Haley 1/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue26}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue26}\"/
 					faceDirection Penny 3/
 					faceDirection farmer 1 true/
 					emote Penny 8/
-					speak Haley \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue27}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue27}}\"/
 					jump Penny/
 					pause 500/
-					textAboveHead Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue28}}\"/
+					textAboveHead Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue28}}\"/
 					pause 800/
 					faceDirection Penny 2/
-					speak Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue29}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue29}}\"/
 					emote Jas 20 true/
 					emote Vincent 28/
 					pause 500/
 					faceDirection Penny 3/
-					speak Penny \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue30}}\"/
+					speak Penny \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue30}}\"/
 					emote farmer 32/
 					viewport move -1 0 3000/
 					advancedMove George false 0 -5 24 0/
@@ -1642,7 +1642,7 @@
 					pause 2000/
 					faceDirection Robin 0/
 					faceDirection Pierre 2/
-					speak Robin \"{{VanillaCopy.Event.HaleyCakewalk.Dialogue31}}\"/
+					speak Robin \"{{i18n:VanillaCopy.Event.HaleyCakewalk.Dialogue31}}\"/
 					pause 500/
 					showFrame Lewis 26/
 					jump Lewis/
@@ -1683,7 +1683,7 @@
 					advancedMove Robin false 0 -1 3 100/
 					advancedMove Pierre false 0 1 3 100/
 					pause 1500/
-					end dialogue Haley \"{{VanillaCopy.Event.HaleyCakewalk.PostDialogue}}\""
+					end dialogue Haley \"{{i18n:VanillaCopy.Event.HaleyCakewalk.PostDialogue}}\""
 			},
 			"When": {
 				"GenderNeutrality": true,
@@ -1707,23 +1707,23 @@
 					skippable/
 					viewport -100 -100 true unfreeze/
 					pause 3000/
-					speak Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.Dialogue1}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue1}}\"/
 					pause 500/
 					emote farmer 8/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.Dialogue2}}\"/
-					quickQuestion {{VanillaCopy.Event.HaleyHasAnIdea.Dialogue3}}#{{VanillaCopy.Event.HaleyHasAnIdea.DialogueOption1}}#{{VanillaCopy.Event.HaleyHasAnIdea.DialogueOption2}}(break)
-					speak Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.Dialogue4}}\"\\
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue2}}\"/
+					quickQuestion {{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue3}}#{{i18n:VanillaCopy.Event.HaleyHasAnIdea.DialogueOption1}}#{{i18n:VanillaCopy.Event.HaleyHasAnIdea.DialogueOption2}}(break)
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue4}}\"\\
 					animate Haley false true 100 28\\
 					animate farmer true true 100 101\\
 					positionOffset Haley 8 0\\
 					positionOffset farmer -8 0(break)
 					emote Haley 12\\
-					speak Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.Dialogue5}}\"/
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue5}}\"/
 					pause 2000/
 					fade/
 					viewport -1000 -1000/
-					end dialogue Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.PostDialogue}}\"",
+					end dialogue Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.PostDialogue}}\"",
 				
 				// Sam defaults + preconditions
 				"3918600/Friendship Sam 3500/Spouse Sam/Time 610 1700/NpcVisibleHere Sam/!LocalMail LivelyMail.SamEvent1/InUpgradedHouse/!SawEvent GuiSmith.LivelyTown_SamHfe1": "
@@ -1743,21 +1743,21 @@
 					emote farmer 8/
 					faceDirection Sam 3/
 					pause 400/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart1.Dialogue1}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart1.Dialogue1}}\"/
 					pause 100/
 					faceDirection Sam 0/
 					emote Sam 40/
 					pause 500/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart1.Dialogue2}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart1.Dialogue2}}\"/
 					pause 500/
 					emote farmer 20/
 					faceDirection Sam 3/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart1.Dialogue3}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart1.Dialogue3}}\"/
 					faceDirection Sam 0/
 					pause 400/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart1.Dialogue4}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart1.Dialogue4}}\"/
 					faceDirection Sam 3/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart1.Dialogue5}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart1.Dialogue5}}\"/
 					emote farmer 32/
 					pause 500/
 					end",
@@ -1778,48 +1778,48 @@
 					jump Sam/
 					emote Sam 16/
 					pause 500/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue1}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue1}}\"/
 					pause 500/
 					stopAnimation Sam/
 					animate Sam false true 400 43 51/
 					pause 500/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue2}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue2}}\"/
 					pause 500/
 					emote Sam 40/
 					pause 1000/
-					textAboveHead Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue3}}\"/
+					textAboveHead Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue3}}\"/
 					animate Sam false true 400 43 51/
 					pause 1000/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue4}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue4}}\"/
 					emote Sam 28/
 					pause 1000/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue5}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue5}}\"/
 					stopAnimation Sam/
 					showFrame Sam 0/
 					pause 300/
 					faceDirection Sam 3/
 					pause 1000/
-					quickQuestion #{{VanillaCopy.Event.SamHighHeart2.DialogueOption1}}#{{VanillaCopy.Event.SamHighHeart2.DialogueOption2}}#{{VanillaCopy.Event.SamHighHeart2.DialogueOption3}}(break)
+					quickQuestion #{{i18n:VanillaCopy.Event.SamHighHeart2.DialogueOption1}}#{{i18n:VanillaCopy.Event.SamHighHeart2.DialogueOption2}}#{{i18n:VanillaCopy.Event.SamHighHeart2.DialogueOption3}}(break)
 					pause 100\\
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue6}}\"(break)
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue6}}\"(break)
 					pause 100\\
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue7}}\"(break)
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue7}}\"(break)
 					pause 100\\
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue8}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue8}}\"/
 					pause 1000/
 					faceDirection Sam 0/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue9}}\"/
-					quickQuestion #{{VanillaCopy.Event.SamHighHeart2.DialogueOption4}}#{{VanillaCopy.Event.SamHighHeart2.DialogueOption5}}(break)
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue9}}\"/
+					quickQuestion #{{i18n:VanillaCopy.Event.SamHighHeart2.DialogueOption4}}#{{i18n:VanillaCopy.Event.SamHighHeart2.DialogueOption5}}(break)
 					animate Sam false true 100 33\\
 					shake Sam 4000\\
 					pause 500\\
-					textAboveHead Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue10}}\"\\
+					textAboveHead Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue10}}\"\\
 					faceDirection farmer 2 true\\
 					animate farmer false true 200 102 103(break)
 					pause 100\\
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart2.Dialogue11}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.Dialogue11}}\"/
 					pause 2000/
-					end dialogue Sam \"{{VanillaCopy.Event.SamHighHeart2.PostDialogue}}\"",
+					end dialogue Sam \"{{i18n:VanillaCopy.Event.SamHighHeart2.PostDialogue}}\"",
 				
 				"3918602/SawEvent 3918601/Spouse Sam/Time 610 1700/!ActiveDialogueEvent samJob2/!LocalMail LivelyMail.SamEvent2/NpcVisibleHere Sam/InUpgradedHouse/!SawEvent GuiSmith.LivelyTown_SamHfe2": "
 					none/
@@ -1830,7 +1830,7 @@
 					makeInvisible 37 14/
 					viewport -100 -100 true unfreeze/
 					pause 2000/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart3.Dialogue1}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart3.Dialogue1}}\"/
 					pause 400/
 					faceDirection Sam 2/
 					animate Sam false true 400 52 53/
@@ -1841,12 +1841,12 @@
 					pause 1000/
 					showFrame Sam 0/
 					faceDirection Sam 3/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart3.Dialogue2}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart3.Dialogue2}}\"/
 					emote farmer 32/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart3.Dialogue3}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart3.Dialogue3}}\"/
 					emote farmer 56/
 					pause 1200/
-					end dialogue Sam \"{{VanillaCopy.Event.SamHighHeart3.PostDialogue}}\"",
+					end dialogue Sam \"{{i18n:VanillaCopy.Event.SamHighHeart3.PostDialogue}}\"",
 				
 				"3918603/SawEvent 3918602/Spouse Sam/Time 610 1700/!ActiveDialogueEvent samJob3/!LocalMail LivelyMail.SamEvent3/NpcVisibleHere Sam/InUpgradedHouse/!SawEvent GuiSmith.LivelyTown_SamHfe3": "
 					distantBanjo/
@@ -1859,13 +1859,13 @@
 					specificTemporarySprite samTV/
 					viewport -100 -100 true unfreeze/
 					pause 2000/
-					speak Vincent \"{{VanillaCopy.Event.SamHighHeart4.Dialogue1}}\"/
+					speak Vincent \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue1}}\"/
 					jump Vincent/
 					pause 1000/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart4.Dialogue2}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue2}}\"/
 					pause 500/
 					jump Vincent/
-					textAboveHead Vincent \"{{VanillaCopy.Event.SamHighHeart4.Dialogue3}}\"/
+					textAboveHead Vincent \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue3}}\"/
 					pause 1500/
 					playMusic none/
 					faceDirection Sam 1/
@@ -1896,14 +1896,14 @@
 					pause 800/
 					jump Jas/
 					pause 500/
-					speak Jas \"{{VanillaCopy.Event.SamHighHeart4.Dialogue4}}\"/
-					textAboveHead Vincent \"{{VanillaCopy.Event.SamHighHeart4.Dialogue5}}\"/
+					speak Jas \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue4}}\"/
+					textAboveHead Vincent \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue5}}\"/
 					pause 1500/
 					jump Sam/
 					pause 1000/
 					emote Sam 20/
 					pause 500/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart4.Dialogue6}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue6}}\"/
 					pause 50/
 					faceDirection Vincent 1 true/
 					faceDirection Jas 3 true/
@@ -1911,18 +1911,18 @@
 					move Sam -1 0 2/
 					move Sam 0 1 1/
 					faceDirection farmer 3/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart4.Dialogue7}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue7}}\"/
 					pause 100/
 					emote farmer 20/
 					pause 500/
-					speak Sam \"{{VanillaCopy.Event.SamHighHeart4.Dialogue8}}\"/
+					speak Sam \"{{i18n:VanillaCopy.Event.SamHighHeart4.Dialogue8}}\"/
 					pause 500/
 					faceDirection farmer 2/
 					itemAboveHead samBoombox/
 					pause 4200/
 					awardFestivalPrize samBoombox/
 					pause 1500/
-					end dialogue Sam \"{{VanillaCopy.Event.SamHighHeart4.PostDialogue}}\""
+					end dialogue Sam \"{{i18n:VanillaCopy.Event.SamHighHeart4.PostDialogue}}\""
 			},
 			"When": {
 				"PlatonicRelationshipsAndFriendships": false
@@ -1944,20 +1944,20 @@
 					skippable/
 					viewport -100 -100 true unfreeze/
 					pause 3000/
-					speak Haley \"{{HighFriendshipEvents.Event.HaleyHasAnIdea.Dialogue1}}\"/
+					speak Haley \"{{i18n:HighFriendshipEvents.Event.HaleyHasAnIdea.Dialogue1}}\"/
 					pause 500/
 					emote farmer 8/
 					pause 1000/
-					speak Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.Dialogue2}}\"/
-					quickQuestion {{VanillaCopy.Event.HaleyHasAnIdea.Dialogue3}}#{{VanillaCopy.Event.HaleyHasAnIdea.DialogueOption1}}#{{VanillaCopy.Event.HaleyHasAnIdea.DialogueOption2}}(break)
-					speak Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.Dialogue4}}\"(break)
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue2}}\"/
+					quickQuestion {{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue3}}#{{i18n:VanillaCopy.Event.HaleyHasAnIdea.DialogueOption1}}#{{i18n:VanillaCopy.Event.HaleyHasAnIdea.DialogueOption2}}(break)
+					speak Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.Dialogue4}}\"(break)
 					emote Haley 12\\
-					speak Haley \"{{HighFriendshipEvents.Event.HaleyHasAnIdea.Dialogue5}}\"/
+					speak Haley \"{{i18n:HighFriendshipEvents.Event.HaleyHasAnIdea.Dialogue5}}\"/
 					addMailReceived LivelyMail.cakewalk/
 					pause 2000/
 					fade/
 					viewport -1000 -1000/
-					end dialogue Haley \"{{VanillaCopy.Event.HaleyHasAnIdea.PostDialogue}}\""
+					end dialogue Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.PostDialogue}}\""
 			}
 		},
 		// MOUNTAIN SECTION
@@ -1975,13 +1975,13 @@
 					skippable/
 					move farmer 0 4 2/
 					faceDirection Sebastian 0/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue1}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue1}}\"/
 					emote farmer 8/
 					faceDirection Sebastian 3/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue2}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue2}}\"/
 					emote farmer 28/
 					faceDirection Sebastian 0/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue3}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue3}}\"/
 					pause 500/
 					faceDirection Sebastian 3/
 					move farmer -5 0 2/
@@ -1989,9 +1989,9 @@
 					showFrame Sebastian 54/
 					playSound grassyStep/
 					pause 500/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue4}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue4}}\"/
 					emote farmer 56/
-					textAboveHead Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue5}}\"/
+					textAboveHead Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue5}}\"/
 					pause 500/
 					doAction 44 36/
 					pause 1000/
@@ -2004,27 +2004,27 @@
 					playSound coin/
 					showFrame Sebastian 55/
 					jump Sebastian/
-					textAboveHead Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue6}}\"/
+					textAboveHead Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue6}}\"/
 					move farmer 5 0 2/
 					move farmer 0 1 1/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue7}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue7}}\"/
 					emote farmer 28/
-					quickQuestion #{{VanillaCopy.Event.SebastianSavesFrog.DialogueOption1}}#{{VanillaCopy.Event.SebastianSavesFrog.DialogueOption2}}#{{VanillaCopy.Event.SebastianSavesFrog.DialogueOption3}}#{{VanillaCopy.Event.SebastianSavesFrog.DialogueOption4}}(break)
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue8}}\"(break)
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue9}}\"\\
+					quickQuestion #{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption1}}#{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption2}}#{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption3}}#{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption4}}(break)
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue8}}\"(break)
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue9}}\"\\
 					faceDirection farmer 2 true\\
 					jump farmer\\
 					showFrame farmer 94\\
 					startJittering(break)
 					emote Sebastian 12\\
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue10}}\"(break)
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue11}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue10}}\"(break)
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue11}}\"/
 					pause 300/
 					stopJittering/
 					stopAnimation farmer/
 					faceDirection farmer 1/
 					pause 500/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue12}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue12}}\"/
 					pause 500/
 					playSound croak/
 					pause 2000/
@@ -2048,13 +2048,13 @@
 					skippable/
 					move farmer 0 4 2/
 					faceDirection Sebastian 0/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue1}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue1}}\"/
 					emote farmer 8/
 					faceDirection Sebastian 3/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue2}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue2}}\"/
 					emote farmer 28/
 					faceDirection Sebastian 0/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue3}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue3}}\"/
 					pause 500/
 					faceDirection Sebastian 3/
 					move farmer -5 0 2/
@@ -2062,9 +2062,9 @@
 					showFrame Sebastian 54/
 					playSound grassyStep/
 					pause 500/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue4}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue4}}\"/
 					emote farmer 56/
-					textAboveHead Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue5}}\"/
+					textAboveHead Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue5}}\"/
 					pause 500/
 					doAction 44 36/
 					pause 1000/
@@ -2077,27 +2077,27 @@
 					playSound coin/
 					showFrame Sebastian 55/
 					jump Sebastian/
-					textAboveHead Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue6}}\"/
+					textAboveHead Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue6}}\"/
 					move farmer 5 0 2/
 					move farmer 0 1 1/
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue7}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue7}}\"/
 					emote farmer 28/
 					quickQuestion #What should we do with him?#It's our new son...#I don't think he's going to make it#Let's nurse him back to health!(break)
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue8}}\"(break)
-					speak Sebastian \"{{HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue9}}\"\\
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue8}}\"(break)
+					speak Sebastian \"{{i18n:HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue9}}\"\\
 					faceDirection farmer 2 true\\
 					jump farmer\\
 					showFrame farmer 94\\
 					startJittering(break)
 					emote Sebastian 12\\
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue10}}\"(break)
-					speak Sebastian \"{{VanillaCopy.Event.SebastianSavesFrog.Dialogue11}}\"/
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue10}}\"(break)
+					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue11}}\"/
 					pause 300/
 					stopJittering/
 					stopAnimation farmer/
 					faceDirection farmer 1/
 					pause 500/
-					speak Sebastian \"{{HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue12}}\"/
+					speak Sebastian \"{{i18n:HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue12}}\"/
 					pause 500/
 					playSound croak/
 					pause 2000/
