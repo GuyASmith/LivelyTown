@@ -1960,7 +1960,7 @@
 					end dialogue Haley \"{{i18n:VanillaCopy.Event.HaleyHasAnIdea.PostDialogue}}\""
 			}
 		},
-		// MOUNTAIN SECTION
+		// SEBASTIAN SECTION
 		// // Vanilla event setup - Sebastian saves frog
 		{
 			"Action": "EditData",
@@ -2082,7 +2082,7 @@
 					move farmer 0 1 1/
 					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue7}}\"/
 					emote farmer 28/
-					quickQuestion #What should we do with him?#It's our new son...#I don't think he's going to make it#Let's nurse him back to health!(break)
+					quickQuestion #{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption1}}#{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption2}}#{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption3}}#{{i18n:VanillaCopy.Event.SebastianSavesFrog.DialogueOption4}}(break)
 					speak Sebastian \"{{i18n:VanillaCopy.Event.SebastianSavesFrog.Dialogue8}}\"(break)
 					speak Sebastian \"{{i18n:HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue9}}\"\\
 					faceDirection farmer 2 true\\
