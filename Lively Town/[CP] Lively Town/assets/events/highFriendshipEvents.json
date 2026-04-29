@@ -2947,7 +2947,7 @@
 					end dialogue Leah \"{{i18n:HighFriendshipEvents.Event.LeahPainting.PostDialogue}}\""
 			}
 		},
-		// SAM SECTION
+		// SAM SECTION (TODO: polish details, Vincent dance in HFE 3)
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/SamHouse",
@@ -3097,5 +3097,8 @@
 					end dialogue Sam \"{{i18n:VanillaCopy.Event.SamHighHeart4.PostDialogue}}\""
 			}
 		}
+		// HARVEY - TODO
+		// MARU - TODO
+		// PENNY - TODO
 	]
 }
