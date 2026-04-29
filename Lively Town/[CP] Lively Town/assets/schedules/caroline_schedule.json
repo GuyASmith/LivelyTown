@@ -36,11 +36,11 @@
 			"Action": "EditData",
             "Target": "Strings/schedules/Caroline",
 			"Entries": {
-				"winter_Mon.000": "Don't mind me. I'm just relaxing while I can."
+				"winter_Mon.000": "{{i18n:CarolineCorner.Schedule.Caroline.Dialogue.CarolineSpaText}}"
 			}
 		},
 			// bathing suit Bathhouse fix
-				// incompatible with character-changing mods, will require manual patches
+				// incompatible with character model-changing mods, will require manual patches
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Caroline",
@@ -76,7 +76,7 @@
 			"Action": "EditData",
             "Target": "Strings/schedules/Abigail",
 			"Entries": {
-				"Sun.000": "We're hiding in here so we don't have to talk to anyone. Isn't that right, David?"
+				"Sun.000": "{{i18n:CarolineCorner.Schedule.Abigail.Dialogue.SundayHideawayText}}"
 			},
 			"When": {
 				"HasFlag": "LivelyMail.showCornerShop"

@@ -11,10 +11,10 @@
 							"Dialogues": [
 								{
 									"Id": "GuiSmith.LivelyTown_CarolineCornerDefault",
-									"Dialogue": "Welcome to the Corner Store, what're you looking for?"
+									"Dialogue": "{{i18n:CarolineCorner.Shop.WelcomeText}}"
 								}
 							],
-							"ClosedMessage": "The Corner Store is open Friday to Sunday from 9AM to 5PM."
+							"ClosedMessage": "{{i18n:CarolineCorner.Shop.ClosedText}}"
 						}
 					],
 					"SalableItemTags": ["category_sell_at_pierres"],

@@ -248,7 +248,7 @@
 			"FromFile": "assets/events/highFriendshipEvents.json",
 			"When": {
 				"EnableHighFriendshipEvents": true,
-				"HasValue:{{spouse}}{{roommate}}": "true"
+				"HasValue:{{spouse}}{{roommate}}": "true" // basically, HFE additions are only enabled in the pool once you're married to reduce the number of event preconditions I'd need to sort out (especially for mod compatibility!)
 			}
 		},
 		{

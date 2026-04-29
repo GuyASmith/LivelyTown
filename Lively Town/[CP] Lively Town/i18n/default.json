@@ -26,6 +26,11 @@
 	
 	// // UI Info Suite Icon Tooltip // //
 	"Compat.CarolineCornerIconTooltip": "Caroline Corner Shop in Pierre's is open",
+
+
+	// // SHOPS // //
+	"CarolineCorner.Shop.WelcomeText": "Welcome to the Corner Store, what're you looking for?",
+	"CarolineCorner.Shop.ClosedText": "The Corner Store is open Friday to Sunday from 9AM to 5PM.",
 	
 	
 	// EVENTS //
@@ -110,6 +115,36 @@
 	"VanillaCopy.Event.LeahPaintingStarter.Dialogue1": "Hey, @. I have an idea...#$b#I want you to meet me in Cindersap Forest tomorrow, at noon.#$b#I'm gonna teach you how to paint!$h",
 	"VanillaCopy.Event.LeahPaintingStarter.Dialogue2": "If the weather's bad, we'll do it the next day. Okay?",
 	"VanillaCopy.Event.LeahPaintingStarter.PostDialogue": "It'll be nice to explore your creative side a bit more, don't you think?",
+	// // Leah Painting event
+	"VanillaCopy.Event.LeahPainting.Dialogue1": "Um... Leah? How much longer will this be?$s#$b#...My knees are quivering, my thighs are whimpering, and I've lost all sensation in my foot.$s",
+	"VanillaCopy.Event.LeahPainting.Dialogue2": "Just keep perfectly still, Marnie... No squirming!$h",
+	"VanillaCopy.Event.LeahPainting.Dialogue3": "Hey, @... what style do you think I should do? I'm up for anything...",
+	"VanillaCopy.Event.LeahPainting.DialogueOption1": "Classic country portrait",
+	"VanillaCopy.Event.LeahPainting.DialogueOption2": "Colorful, retro pop-art",
+	"VanillaCopy.Event.LeahPainting.DialogueOption3": "Minimalist modern",
+	"VanillaCopy.Event.LeahPainting.Dialogue4": "Stick with the classic look, huh? Yeah, I think Marnie will appreciate that.",
+	"VanillaCopy.Event.LeahPainting.Dialogue5": "Good idea! That sounds fun... Let me get some more yellow paint on the palette...",
+	"VanillaCopy.Event.LeahPainting.Dialogue6": "Hmm... not my usual style, but I'll give it a shot. I'd better switch to acrylic paint for this one...",
+	"VanillaCopy.Event.LeahPainting.Dialogue7": "How's yours coming along?",
+	"VanillaCopy.Event.LeahPainting.DialogueOption4": "It's a masterpiece of fine art!",
+	"VanillaCopy.Event.LeahPainting.DialogueOption5": "I'm trying my best...",
+	"VanillaCopy.Event.LeahPainting.DialogueOption6": "It looks like chicken scratch",
+	"VanillaCopy.Event.LeahPainting.Dialogue8": "Wow, I like your confidence!$h#$b#Who knows? Maybe you'll become the next Lupini!$h#$b#...Can't wait to see it.",
+	"VanillaCopy.Event.LeahPainting.Dialogue9": "Hey, that's all I ask. If you keep trying your best you can't help but get better at it!",
+	"VanillaCopy.Event.LeahPainting.Dialogue10": "Hey, that's okay! You gotta start somewhere. And you never know, one person's chicken scratch is another person's 'modern art'.",
+	"VanillaCopy.Event.LeahPainting.Dialogue11": "Make me look good!",
+	"VanillaCopy.Event.LeahPainting.Dialogue12": "Shh!",
+	"VanillaCopy.Event.LeahPainting.Dialogue13": "Now, don't forget the techniques I taught you... broad strokes, hold the brush like so...",
+	"VanillaCopy.Event.LeahPainting.Dialogue14": "There!",
+	"VanillaCopy.Event.LeahPainting.Dialogue15": "What do you think?",
+	"VanillaCopy.Event.LeahPainting.Dialogue16": "Oooh!",
+	"VanillaCopy.Event.LeahPainting.Dialogue17": "I love it! That's going up in my room...$h",
+	"VanillaCopy.Event.LeahPainting.Dialogue18": "Now, let's see what you've got, @.",
+	"VanillaCopy.Event.LeahPainting.Dialogue19": "Erm... It's... interesting!$6#$b#It's, uh... a different kind of approach, for sure...$6",
+	"VanillaCopy.Event.LeahPainting.Dialogue20": "Let me see",
+	"VanillaCopy.Event.LeahPainting.Dialogue21": "Marnie, you can hang both of these in your room!$h",
+	"VanillaCopy.Event.LeahPainting.Dialogue22": "Em... @, why don't you go ahead and keep yours? It might be nice to, uh... own your first-ever painting... ya know?$s",
+	"VanillaCopy.Event.LeahPainting.PostDialogue": "Um... Honey? Where were you planning to hang that painting you did?$3",
 	
 	// // Emily High Heart start event
 	"VanillaCopy.Event.EmilyClothingStarter.Dialogue1": "Hey, honey... before you get to work today, do you have a moment?#$b#I've been working on something special for you... but I need a little help finishing it.",
@@ -258,6 +293,24 @@
 	"VanillaCopy.Event.SebastianSavesFrog.Dialogue10": "Well, sorry if I don't take your word for it... I'm gonna give the poor guy a chance.",
 	"VanillaCopy.Event.SebastianSavesFrog.Dialogue11": "We'll do our best. But don't get too attached just yet...",
 	"VanillaCopy.Event.SebastianSavesFrog.Dialogue12": "Let's take him home.",
+
+	// // Abigail saves player
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue1": "*gasp*...!$7",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue2": "@...?$6",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue3": "@... are you okay?$6",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue4": "It looks like you're just scraped up a little... you had me worried!",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue5": "I... I've never taken a life before...$s",
+	"VanillaCopy.Event.AbigailSavesPlayer.DialogueOption1": "It's sad, but there was no other option.",
+	"VanillaCopy.Event.AbigailSavesPlayer.DialogueOption2": "Monsters don't deserve our sympathy!",
+	"VanillaCopy.Event.AbigailSavesPlayer.DialogueOption3": "It's a harsh world, kid.",
+	"VanillaCopy.Event.AbigailSavesPlayer.DialogueOption4": "Did you have to kill him?",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue6": "Yeah... I did what I had to do.$s#$b#I guess the world's a pretty tough place. It was either you or him, right?$6",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue7": "...Aren't they just trying to survive, like us?$s#$b#They may be our enemies, but I still think they deserve sympathy.$6#$b#Still... I did what had to be done.$6",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue8": "Huh? That's pretty funny coming from someone who just got rescued...$h#$b#But... yeah... Sometimes reality forces us to do things we'd rather not... Guess I'm learning that the hard way.$6",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue9": "Hey! I saved your life, didn't I? Maybe you should think about that instead of putting me on a guilt trip.$a",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue10": "Look... You've gotta be more careful from now on. I don't want to lose you.",
+	"VanillaCopy.Event.AbigailSavesPlayer.Dialogue11": "Let's put him to rest nearby... okay?$6",
+	"VanillaCopy.Event.AbigailSavesPlayer.PostDialogue": "Good thing I brought my sword today!$6",
 	
 	
 	// // High Friendship Events // //
@@ -294,15 +347,33 @@
 	"HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue9": "Hah... are thigs going so bad at home you want to raise a frog with me instead?$h#$b#He's definitely got your nose...$7",
 	"HighFriendshipEvents.Event.SebastianSavesFrog.Dialogue12": "I'll take him home.",
 
+	// // Abigail saves player HFE
+	"HighFriendshipEvents.Event.AbigailSavesPlayer.Dialogue10": "Look... You've gotta be more careful from now on. I can't always be here to stop a stray golem.",
+
+	// // Elliot tour start HFE
+	"HighFriendshipEvents.Event.ElliotTourStart.Dialogue3": "...I'll be out of town for a week. I'll write to you every day, and I'll be back before you know it.", // technically not the equivalent to line 3, but meh
+	"HighFriendshipEvents.Event.ElliotTourStart.PostDialogue": "I can't forget my hairbrush, my hairspray, my fine-tooth comb, and my pomegranate conditioner!",
+
+	// // Leah painting HFE
+	"HighFriendshipEvents.Event.LeahPainting.PostDialogue": "You had fun, right?#$b#But I have to ask, where were you planning to hang that painting?$h",
+
+	// // Sam HFE 1 (equates to vanilla events 1-2, mostly 2)
+	"HighFriendshipEvents.Event.SamHighHeart1.Dialogue1": "Hey @!$h#$b#Remember my band's concert? That night, someone said I might actually have a chance to make this a career.#$b#Ever since then, I've been applying to some musician and composer jobs.#$b#And-  Listen to this!$8",
+	// // Sam HFE 2 (equates to vanilla event 3)
+	"HighFriendshipEvents.Event.SamHighHeart2.Dialogue1": "Hey, @. I'm working on my demo for the TV studio... check it out.",
+	"HighFriendshipEvents.Event.SamHighHeart2.Dialogue2": "I've got the hardest part done, but it's still bare-bones right now... I'm trusting the process.#$b#When I add in all the different instruments, it'll come together. You'll see.",
+	// // // Sam HFE 2 (equates to vanilla event 3)
+	"HighFriendshipEvents.Event.SamHighHeart3.Dialogue8": "And Vince, they asked me to write some more songs.#$b#That means you get to listen to more new music I make!$h",
 	
+
 	// DIALOGUE //
 	// // Evelyn's Gardening & Cherry Tree // //
 	// // Evelyn
 	"EvelynsGardening.Dialogue.Evelyn.SpringFri4.1": "I thought it was time I gave you something for our chats and your gifts.#$b#I like to make jelly with the extra cherries from the tree outside.#$b#Here's my latest jar, just for you.$h [ 344 ]",
 	"EvelynsGardening.Dialogue.Evelyn.SpringFri6.2": "You run around a lot, but it's nice to catch up sometimes.$h#$b#Here, we have plenty of jelly from the cherry tree. [ 344 ]",
-	"EvelynsGardening.Dialogue.Evelyn.SummerMon4.1": "You know, the tree out front grows lots of cherries. We have some left over in the fridge that I'm slowly making into jelly.#$b#I can't cook them all down, but I know you'd enjoy some. [ 638 ]#$b#I thought I'd share them with someone other than Lewis or Gus for once.",
+	"EvelynsGardening.Dialogue.Evelyn.SummerMon4.1": "You know, the tree out front grows lots of cherries. We have some left over in the refrigerator that I'm slowly making into jelly.#$b#I can't cook them all down, but I know you'd enjoy some. [ 638 ]#$b#I thought I'd share them with someone other than Lewis or Gus for once.",
 	"EvelynsGardening.Dialogue.Evelyn.SummerMon6.2": "I still have plenty of cherries from our tree.#$e#Since you're so inquisitive, why don't you take some? It'd be a shame to let them go to waste. [ 638 ]",
-	"EvelynsGardening.Dialogue.Evelyn.SpringMon": "$1 evelynsTree#I'm sure a farmer would be interested in this: the tree outside our house is a cherry tree old as me.#$b#At least, that's what we think. It's been there since before I can remember.#$b#And as a little girl, I took that sort of thing for granted.#$b#Until I had its cherries, that is.#$b#At first, they were too tart for a young child like myself. But they were so sweet I kept coming back.#$b#Then I wouldn't stop fawning over it come the new year.$k#$e#The old cherry tree is fruiting again.#$e#It's about time to collect some again.",
+	"EvelynsGardening.Dialogue.Evelyn.SpringMon": "$1 evelynsTree#I'm sure a farmer would be interested in this: the tree outside our house is a tart cherry tree as old as me.#$b#At least, that's what we think. It's been there since before I can remember.#$b#And as a little girl, I took that sort of thing for granted.#$b#Until I had its cherries, that is.#$b#At first, they were too tart for a young child like myself. But they were so sweet I kept coming back.#$b#Then I wouldn't stop fawning over it come the new year.$k#$e#The old cherry tree is fruiting.#$e#It's about time to collect some again.",
 	"EvelynsGardening.Dialogue.Evelyn.SpringFri16.AlexInlaw": "It's nice to see you and Alex together.#$b#As a gift for you two, I have some of his favorite jelly. [ 344 ]",
 	// // Alex
 	"EvelynsGardening.Dialogue.Alex.SpringSat4": "It's cherry picking day for me.#$e#I like to shake the high branches with my gridball.$u#$e#If it gets stuck, I just shake the low branches until the cherries *and* the ball fall out.",
@@ -314,5 +385,11 @@
 	
 	// // Event Consistency // //
 	// // Caroline after Pierre's is made open all week
-	"EventConsistency.Dialogue.CarolinePierresOpenComment": "It's different having the shop open Wednesdays now.#$b#Not that I'm complaining.$h"
+	"EventConsistency.Dialogue.CarolinePierresOpenComment": "It's different having the shop open Wednesdays now.#$b#Not that I'm complaining.$h",
+
+	// // Caroline Corner Schedule Dialogue // //
+	// // Caroline visits the spa in winter, this is what she says while in the bathhouse if you run across her
+	"CarolineCorner.Schedule.Caroline.Dialogue.CarolineSpaText": "Don't mind me. I'm just relaxing while I can.",
+	// // normally, Caroline and Abigail are together in the kitchen part of Sunday, but the corner shop means Abigail and her mom are in different places and Abigail needs something to do
+	"CarolineCorner.Schedule.Abigail.Dialogue.SundayHideawayText": "We're hiding in here so we don't have to talk to anyone. Isn't that right, David?"
 }
