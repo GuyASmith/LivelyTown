@@ -183,7 +183,7 @@
 			},
 			"When": {
 				"EnableCarolineCorner": true,
-				"DayOfWeek": "Fri, Sat, Sun",
+				"DayOfWeek": "Friday, Saturday, Sunday",
 				"HasFlag": "LivelyMail.showCornerShop"
 			}
 		},

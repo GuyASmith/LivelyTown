@@ -75,7 +75,7 @@
 					pause 1000/
 					end dialogue Alex \"{{i18n:VanillaCopy.Event.AlexHighHeart.PostDialogue}}\"",
 				"GusUnconcerned": "
-					speak Gus \"{{EventConsistency.Event.AlexHighHeart.Dialogue16}}\"/
+					speak Gus \"{{i18n:EventConsistency.Event.AlexHighHeart.Dialogue16}}\"/
 					pause 2000/
 					fade/
 					viewport -1000 -1000/
